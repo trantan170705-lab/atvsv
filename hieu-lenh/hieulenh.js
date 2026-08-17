@@ -94,7 +94,7 @@
   let currentCueIndex = 0;
   let stage4Current = 1; // 1, 2, hoặc 3 cho Cue 04
   let isAudioUnlocked = false;
-  let isPerformingMode = true; // true: Biểu diễn, false: Tập luyện
+  let isPerformingMode = false; // Mặc định tập luyện; true: Biểu diễn, false: Tập luyện
   let isPlaying = false;
   let isBackupPlaying = false;
   let audioCtx = null;
