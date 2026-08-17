@@ -26,15 +26,14 @@ Nguồn có thể dùng: [Pixabay Sound Effects](https://pixabay.com/sound-effec
   - `dog bark short`
   - `cartoon dog bark`
 
-### Lệnh 03 — Hiệu ứng giật mình khi rắn xuất hiện
+### Lệnh 03 — Hiệu ứng rắn xuất hiện
 
 - **Tệp đích:** `audio/03_RAN_GIAT_MINH.mp3`
 - **Thời lượng:** khoảng 1–2 giây.
 - **Từ khóa tìm kiếm:**
-  - `cartoon surprise sting`
-  - `comedy shock sound effect`
-  - `sudden scare funny`
   - `snake hiss short`
+  - `snake movement sound effect`
+  - `cartoon snake hiss`
 
 ### Lệnh 04 — Nhạc kết và cao trào
 
@@ -52,16 +51,16 @@ Nguồn có thể dùng: [Pixabay Sound Effects](https://pixabay.com/sound-effec
 - Chọn âm thanh **không lời** (`no vocals`) để không che lời diễn viên.
 - Cue 01 và 03 cần vào âm nhanh, rõ, không có khoảng lặng dài ở đầu tệp.
 - Nhạc dự phòng cần có đoạn đầu/cuối tương đối liền mạch để phát lặp không gây giật; cue 04 cần có phần âm nhạc đều, không kết thúc đột ngột trước thời lượng yêu cầu.
-- Với cue 03, ưu tiên hiệu ứng giật mình/hài ngắn thay vì tiếng rắn thật; hiệu quả sân khấu thường rõ hơn.
+- Với cue 03, ưu tiên tiếng rắn hoặc hiệu ứng xuất hiện ngắn, vào âm ngay từ đầu tệp.
 - Tránh tiếng trống hoặc bass quá mạnh khi diễn viên còn đang thoại.
-- WAV và MP3 đều có thể phát được trong ứng dụng. Khi thay tệp, phải giữ đúng tên/đuôi đã cấu hình; hiện Lệnh 00 dùng `.mp3`, các lệnh còn lại dùng `.wav`.
+- WAV và MP3 đều có thể phát được trong ứng dụng. Khi thay tệp, phải giữ đúng tên/đuôi đã cấu hình; hiện cả bốn tệp đang dùng `.mp3`.
 
 ## Quy trình thay tệp
 
 1. Tải tệp về và nghe thử bằng loa sẽ dùng khi tập/biểu diễn.
 2. Cắt đoạn cần thiết, kiểm tra không có khoảng lặng đầu/cuối không mong muốn.
 3. Đổi tên tệp theo đúng tên trong bảng và thay vào thư mục `audio/`.
-4. Mở trang `/hieulenh`, kiểm tra lần lượt từng lệnh.
+4. Mở trang `/hieu-lenh`, kiểm tra lần lượt từng lệnh.
 5. Nếu trang đã từng chạy trên thiết bị, bấm **LÀM MỚI ÂM THANH** trên thanh đầu trang. Nút này xóa cache âm thanh của ứng dụng và tải lại trang. Khi đổi tên hoặc đường dẫn tệp, cũng tăng `CACHE_NAME` trong `sw.js`.
 
 ## Ghi chú giấy phép

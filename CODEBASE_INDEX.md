@@ -4,9 +4,9 @@
 
 ```text
 atvsv/
-├── trac-nghiem/       # index.html, app.js, styles.css, dữ liệu câu hỏi
+├── trac-nghiem/       # app.js, styles.css, dữ liệu câu hỏi
 ├── hieu-lenh/         # hieulenh.*, sw.js, audio/, hướng dẫn audio
-├── index.html         # chuyển đến /trac-nghiem/
+├── index.html         # trang trắc nghiệm ở URL gốc /
 └── vercel.json
 ```
 
@@ -15,7 +15,7 @@ atvsv/
 Đây là website tĩnh (HTML/CSS/JavaScript thuần) phục vụ Hội thi An toàn vệ sinh viên giỏi 2026. Dự án có hai ứng dụng độc lập:
 
 1. **Trộn đề & chấm điểm**: trang gốc, chọn đề, làm bài và xem đáp án.
-2. **Web hiệu lệnh âm thanh sân khấu**: `/hieulenh`, phát và điều khiển 5 cue âm thanh cho tiểu phẩm.
+2. **Web hiệu lệnh âm thanh sân khấu**: `/hieu-lenh`, phát và điều khiển 3 cue kịch bản cùng 1 nhạc dự phòng.
 
 Không có bước build, framework hay backend. Lệnh chạy cục bộ là `npm run dev` (dùng `npx serve .`).
 
@@ -23,10 +23,9 @@ Không có bước build, framework hay backend. Lệnh chạy cục bộ là `n
 
 | URL / file | Mục đích | Tải mã |
 | --- | --- | --- |
-| `/` / `index.html` | Ứng dụng trắc nghiệm | `styles.css`, `app.js` |
-| `/hieulenh` / `hieulenh.html` | Bảng điều khiển âm thanh | `hieulenh.css`, `hieulenh.js`, `sw.js` |
-| `/hieu-lenh` | Alias đến trang hiệu lệnh | Vercel rewrite + Service Worker |
-| `/cue` / `cue.html` | Tuyến cũ; chuyển hướng về `/hieulenh` | HTML redirect + Vercel rewrite |
+| `/` / `index.html` | Ứng dụng trắc nghiệm | `trac-nghiem/styles.css`, `trac-nghiem/app.js` |
+| `/hieu-lenh` | Bảng điều khiển âm thanh | `hieu-lenh/index.html`, `hieulenh.css`, `hieulenh.js`, `sw.js` |
+| `/hieulenh` / `/hieulenh.html` | Tuyến cũ; chuyển hướng về `/hieu-lenh` | Vercel redirect |
 
 `vercel.json` thiết lập clean URL, các redirect/rewrites trên và header chống cache dài hạn.
 
@@ -35,17 +34,15 @@ Không có bước build, framework hay backend. Lệnh chạy cục bộ là `n
 | Đường dẫn | Vai trò |
 | --- | --- |
 | `index.html` | Khung DOM cho trang trắc nghiệm: chọn chế độ, danh sách câu hỏi, kết quả. |
-| `app.js` | Ngân hàng dự phòng, tải JSON, tạo đề, render, theo dõi tiến độ và chấm điểm. |
-| `styles.css` | Giao diện trang trắc nghiệm. |
-| `ngan_hang_120_cau_trac_nghiem.json` | Nguồn dữ liệu câu hỏi ưu tiên khi chạy qua HTTP. |
-| `ngan_hang_120_cau_trac_nghiem.md` | Bản dữ liệu/đọc tham khảo ở Markdown. |
-| `hieulenh.html` | Khung DOM bảng điều khiển cue âm thanh. |
-| `hieulenh.js` | Web Audio engine, trạng thái cue, phím tắt, cài đặt cục bộ và PWA. |
-| `hieulenh.css` | Giao diện bảng điều khiển cue. |
-| `sw.js` | Pre-cache trang hiệu lệnh, mã, CSS và năm tệp âm thanh để hỗ trợ offline. |
-| `audio/` | Năm tệp WAV tương ứng cue `00` đến `04`. |
-| `cue.html` | Trang chuyển hướng tương thích ngược. |
-| `cue.js`, `cue.css` | Bản mã hiệu lệnh cũ/không được `cue.html` nạp trực tiếp; chỉ sửa khi cần duy trì bản thay thế. |
+| `trac-nghiem/app.js` | Ngân hàng dự phòng, tải JSON, tạo đề, render, theo dõi tiến độ và chấm điểm. |
+| `trac-nghiem/styles.css` | Giao diện trang trắc nghiệm. |
+| `trac-nghiem/ngan_hang_120_cau_trac_nghiem.json` | Nguồn dữ liệu câu hỏi ưu tiên khi chạy qua HTTP. |
+| `trac-nghiem/ngan_hang_120_cau_trac_nghiem.md` | Bản dữ liệu/đọc tham khảo ở Markdown. |
+| `hieu-lenh/index.html` | Khung DOM bảng điều khiển âm thanh. |
+| `hieu-lenh/hieulenh.js` | Web Audio engine, trạng thái cue, phím tắt, cài đặt cục bộ và PWA. |
+| `hieu-lenh/hieulenh.css` | Giao diện bảng điều khiển. |
+| `hieu-lenh/sw.js` | Pre-cache trang hiệu lệnh, mã, CSS và bốn tệp âm thanh để hỗ trợ offline. |
+| `hieu-lenh/audio/` | Bốn tệp MP3: dự phòng, chó sủa, rắn xuất hiện và nhạc kết. |
 | `HUONG_DAN_SU_DUNG_CUE.md` | Hướng dẫn vận hành bảng cue cho người dùng. |
 | `DESIGN.md` | Tài liệu thiết kế giao diện/hành vi. |
 | `README.md` | Giới thiệu, hướng dẫn chạy và triển khai. |
@@ -86,12 +83,12 @@ index.html
 ## Luồng ứng dụng cue âm thanh
 
 ```text
-hieulenh.html
+hieu-lenh/index.html
   └─ DOMContentLoaded
-       ├─ preloadAllAudio() → fetch/decode 5 WAV, fallback âm tổng hợp nếu tải lỗi
+       ├─ preloadAllAudio() → fetch/decode 4 MP3, fallback âm tổng hợp nếu tải lỗi
        └─ initEvents()
             └─ triggerCue(index)
-                 ├─ cue 00–03: AudioBufferSource + Gain automation
+                 ├─ cue 01, 03 và nhạc dự phòng: AudioBufferSource + Gain automation
                  └─ cue 04: chuỗi ba giai đoạn (nền → cao trào → đỉnh/fade)
 ```
 
@@ -99,10 +96,9 @@ hieulenh.html
 
 | Cue | Âm thanh | Hành vi chính |
 | --- | --- | --- |
-| `00` | Nhạc mở | Fade in; tự fade và dừng khoảng mốc 30 giây. |
+| `00` | Nhạc dự phòng | Phát lặp khi có sự cố hoặc cần chờ sân khấu; dừng thủ công. |
 | `01` | Chó sủa | Phát ngắn, tự dừng. |
-| `02` | Bíp + máy in | Gain automation, tự dừng. |
-| `03` | Rắn giật mình | Phát tức thời, tự dừng. |
+| `03` | Rắn xuất hiện | Phát tức thời, tự dừng. |
 | `04` | Nhạc kết | Ba lần GO/SPACE: nền → cao trào → đỉnh, giữ và fade out tự động. |
 
 ### Điểm chỉnh sửa trong `hieulenh.js`
@@ -126,5 +122,4 @@ Phím tắt: `Space` phát/tiến cue, `F` fade & kết thúc, `Esc` dừng kh�
 
 - `app.js` vừa chứa ngân hàng fallback vừa tải `ngan_hang_120_cau_trac_nghiem.json`; khi cập nhật câu hỏi nên đồng bộ cả hai nếu cần hỗ trợ mở trực tiếp từ file.
 - Khi thêm/đổi tệp audio, cập nhật đồng thời `DEFAULT_CUES` trong `hieulenh.js` và `ASSETS_TO_CACHE` trong `sw.js`; tăng `CACHE_NAME` để client nhận cache mới.
-- `cue.js` và `cue.css` không phải tài nguyên của route `/cue` hiện tại. Tránh sửa chúng thay cho `hieulenh.js`/`hieulenh.css` nếu mục tiêu là ứng dụng đang hoạt động.
 - Các tệp Word/PDF ở gốc là tài liệu nguồn, không được website nạp trực tiếp.

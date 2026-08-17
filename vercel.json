@@ -4,9 +4,7 @@
   "redirects": [
     { "source": "/trac-nghiem", "destination": "/", "statusCode": 308 },
     { "source": "/hieulenh", "destination": "/hieu-lenh", "statusCode": 301 },
-    { "source": "/cue", "destination": "/hieu-lenh", "statusCode": 301 },
-    { "source": "/hieulenh.html", "destination": "/hieu-lenh", "statusCode": 301 },
-    { "source": "/cue.html", "destination": "/hieu-lenh", "statusCode": 301 }
+    { "source": "/hieulenh.html", "destination": "/hieu-lenh", "statusCode": 301 }
   ],
   "rewrites": [
     { "source": "/hieu-lenh", "destination": "/hieu-lenh/index.html" }

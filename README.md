@@ -17,10 +17,10 @@ Website tĩnh tạo đề trắc nghiệm, trộn câu hỏi/đáp án ngẫu nh
 ## 🎭 WEB HIỆU LỆNH ÂM THANH SÂN KHẤU ("HIỂM HỌA CHỰC CHỜ")
 
 Mở ứng dụng bấm hiệu lệnh âm thanh sân khấu tại đường dẫn:
-- **Local**: `hieulenh.html` hoặc `http://localhost:3000/hieu-lenh`
-- **Vercel**: `https://[ten-app].vercel.app/hieu-lenh` (hoặc `/hieulenh`)
+- **Local**: `http://localhost:3000/hieu-lenh`
+- **Vercel**: `https://[ten-app].vercel.app/hieu-lenh`
 
-Xem hướng dẫn sử dụng tiếng Việt dành cho người không chuyên âm thanh tại file [HUONG_DAN_SU_DUNG_CUE.md](file:///c:/Users/PC/Desktop/atvsv/HUONG_DAN_SU_DUNG_CUE.md).
+Xem hướng dẫn sử dụng tại `hieu-lenh/HUONG_DAN_SU_DUNG_CUE.md`.
 
 ## 🚀 Chạy Tại Máy
 
@@ -32,7 +32,7 @@ npx serve . --single
 
 Sau đó truy cập:
 - Trang chủ: `http://localhost:3000`
-- Web Hiệu Lệnh Âm Thanh: `http://localhost:3000/hieulenh`
+- Web Hiệu Lệnh Âm Thanh: `http://localhost:3000/hieu-lenh`
 
 ## 📦 Hướng Dẫn Push Code Lên GitHub
 
@@ -49,7 +49,7 @@ git branch -M main
 git add .
 
 # 4. Tạo bản ghi Commit
-git commit -m "Thêm Web Cue Âm Thanh Sân Khấu (/cue) cho tiểu phẩm Hiểm Họa Chực Chờ ATVSLĐ 2026"
+git commit -m "Thêm Web Hiệu Lệnh Âm Thanh Sân Khấu"
 
 # 5. Liên kết tới GitHub Repository
 git remote add origin https://github.com/trantan170705-lab/atvsv.git
@@ -75,7 +75,6 @@ git push -u origin main
 - `ngan_hang_120_cau_trac_nghiem.md`: File Markdown lưu trữ toàn bộ 120 câu trắc nghiệm và đáp án đúng.
 - `ngan_hang_120_cau_trac_nghiem.json`: File cấu trúc JSON chuẩn của 120 câu hỏi.
 - `app.js`: Nhúng toàn bộ ngân hàng câu hỏi và xử lý logic hoán vị/chấm điểm.
-- `cue.html` & `cue.js`: Giao diện & Động cơ Web Audio API điều khiển cue âm thanh sân khấu.
-- `HUONG_DAN_SU_DUNG_CUE.md`: Hướng dẫn vận hành Web Cue Sân Khấu tiếng Việt.
-- `audio/`: Thư mục chứa 5 file âm thanh MP3 chuẩn hóa cho 5 cue tiểu phẩm.
-
+- `hieu-lenh/index.html` & `hieu-lenh/hieulenh.js`: Giao diện và bộ điều khiển âm thanh sân khấu.
+- `hieu-lenh/HUONG_DAN_SU_DUNG_CUE.md`: Hướng dẫn vận hành Web Hiệu lệnh tiếng Việt.
+- `hieu-lenh/audio/`: Thư mục chứa 4 tệp MP3: nhạc dự phòng, chó sủa, rắn xuất hiện và nhạc kết.

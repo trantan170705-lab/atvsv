@@ -1,4 +1,4 @@
-const CACHE_NAME = 'hieulenh-audio-v10';
+const CACHE_NAME = 'hieulenh-audio-v19';
 const ASSETS_TO_CACHE = [
   './index.html',
   './hieulenh.css',
@@ -36,8 +36,8 @@ self.addEventListener('activate', (event) => {
 self.addEventListener('fetch', (event) => {
   const url = new URL(event.request.url);
 
-  // Nếu request là clean URL /hieulenh thì map về index.html trong cache
-  if (url.pathname.endsWith('/hieulenh') || url.pathname.endsWith('/hieu-lenh') || url.pathname.endsWith('/cue')) {
+  // Nếu request là URL hiệu lệnh thì map về index.html trong cache
+  if (url.pathname.endsWith('/hieulenh') || url.pathname.endsWith('/hieu-lenh')) {
     const htmlUrl = new URL('./index.html', self.registration.scope);
     const htmlRequest = new Request(htmlUrl);
     event.respondWith(

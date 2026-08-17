@@ -229,6 +229,11 @@ button, .btn-go-huge, .btn-header, .btn-nav-cue, .btn-special, .cue-item-card {
   color: var(--on-primary);
 }
 
+#btn-stop-all {
+  padding: 4px 10px;
+  font-size: 13px;
+}
+
 /* ═══ LAYOUT GRID ═══ */
 .cue-app-layout {
   display: grid;
@@ -846,8 +851,129 @@ kbd {
 }
 
 @media (max-width: 600px) {
+  .top-bar {
+    display: block;
+    padding: 8px 12px;
+    gap: 0;
+  }
+
+  .brand-wrap {
+    min-width: 0;
+    gap: 8px;
+    margin-bottom: 8px;
+  }
+
+  .brand-title {
+    font-size: 13px;
+    white-space: nowrap;
+  }
+
+  .brand-badge {
+    display: none;
+  }
+
+  .status-tag {
+    margin-left: auto;
+    font-size: 11px;
+    padding: 3px 7px;
+    white-space: nowrap;
+  }
+
+  .top-controls {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 8px;
+    padding-bottom: 2px;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+
+  .top-controls::-webkit-scrollbar {
+    display: none;
+  }
+
+  .top-controls > * {
+    flex: 0 0 auto;
+  }
+
+  .volume-wrap {
+    padding: 4px 9px;
+    font-size: 12px;
+  }
+
+  .volume-wrap input[type="range"] {
+    width: 76px;
+  }
+
+  .btn-header {
+    min-height: 36px;
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+
+  #btn-stop-all {
+    order: -2;
+    min-height: 34px;
+    padding: 4px 9px;
+    font-size: 12px;
+  }
+
+  #btn-backup-music {
+    display: none;
+    position: fixed;
+    top: 50%;
+    right: 8px;
+    bottom: auto;
+    z-index: 150;
+    width: 42px;
+    min-height: 42px;
+    height: 42px;
+    padding: 0;
+    border-radius: 50%;
+    border-color: var(--primary);
+    background: var(--primary);
+    color: var(--on-primary);
+    box-shadow: 0 6px 18px rgba(0, 117, 222, 0.28);
+    font-size: 0;
+    transform: translateY(-50%);
+  }
+
+  #btn-backup-music.mobile-ready {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #btn-backup-music::before {
+    content: '♫';
+    font-size: 21px;
+    line-height: 1;
+    font-weight: 700;
+  }
+
+  #btn-backup-music:active {
+    background: var(--primary-active);
+    transform: translateY(-50%) scale(0.94);
+  }
+
+  .cue-app-layout {
+    gap: 12px;
+    padding: 12px;
+    min-height: auto;
+  }
+
+  .current-cue-card {
+    padding: 18px;
+    gap: 12px;
+  }
+
+  .cue-timer {
+    font-size: 21px;
+    padding: 4px 10px;
+  }
+
   .cue-title-large {
-    font-size: 26px;
+    font-size: 25px;
     letter-spacing: -0.625px;
   }
 
@@ -865,6 +991,22 @@ kbd {
   }
 
   .bottom-controls {
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+  }
+
+  .btn-nav-cue {
+    min-height: 44px;
+    padding: 8px 5px;
+    font-size: 12px;
+  }
+
+  .sidebar-cues {
+    padding: 14px;
+  }
+
+  .cue-item-card {
+    padding: 10px 12px;
   }
 }

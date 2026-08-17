@@ -42,7 +42,7 @@
 * **Nhạc dọn sân khấu (Lệnh 00)**: `55%`
 * **Tiếng chó sủa (Lệnh 01)**: `72%`
 * **Đỉnh nhạc kết (Lệnh 04.3)**: `72%`
-* **Rắn giật mình (Lệnh 03)**: `80%` (Phát ngắn 1.0s, trệ = 0ms)
+* **Rắn xuất hiện (Lệnh 03)**: `80%` (Phát ngắn 1.0s, trệ = 0ms)
 * **Âm lượng tổng (Master Volume)**: Khuyên dùng `65%` (có thể tăng giảm tùy loa thực tế).
 
 ---
@@ -72,7 +72,7 @@ Hệ thống đã hỗ trợ tính năng **Tự động hẹn giờ**:
 ## ⚙️ 4. Quy Trình Checklist Chuẩn Bị Trước Khi Thi Biểu Diễn
 
 1. **Bước 1**: Mở trình duyệt laptop (khuyên dùng Chrome hoặc Edge).
-2. **Bước 2**: Truy cập `cue.html` (hoặc URL Vercel `/cue`).
+2. **Bước 2**: Truy cập URL Vercel `/hieu-lenh`.
 3. **Bước 3**: Kiểm tra thông báo **4/4 ÂM THANH ĐÃ NẠP – SẴN SÀNG**.
 4. **Bước 4**: Nhấn nút lớn **🔊 KHỞI ĐỘNG ÂM THANH** để mở khóa Web Audio API.
 5. **Bước 5**: Nhấn nút **⛶ TOÀN MÀN HÌNH** để tránh bấm nhầm các tab trình duyệt.

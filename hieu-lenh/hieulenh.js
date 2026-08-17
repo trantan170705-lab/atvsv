@@ -37,11 +37,11 @@
     },
     {
       id: "03",
-      name: "RẮN GIẬT MÌNH",
+      name: "RẮN XUẤT HIỆN",
       icon: "🐍",
       file: "./audio/03_RAN_GIAT_MINH.mp3",
-      sign: "ĐÚNG KHOẢNH KHẤU nắp hộp đồng hồ vừa mở và con rắn bắt đầu xuất hiện",
-      actionHint: "Bấm PHÍM CÁCH lập tức! (âm lượng 80% -> 70%, tự dừng ở 1,05 giây)",
+      sign: "Vừa mở nắp đồng hồ thì con rắn chạy ra",
+      actionHint: "Bấm PHÍM CÁCH đúng lúc rắn xuất hiện (âm lượng 80% -> 70%, tự dừng ở 1,05 giây)",
       automation: [
         { time: 0.00, gain: 0.80 },
         { time: 0.12, gain: 0.72 },
@@ -558,21 +558,25 @@
     // Giao diện cho Lệnh 04 theo từng giai đoạn
     else if (cue.id === "04") {
       if (stage4Current === 1 && !isPlaying) {
+        elBtnGo.disabled = false;
         elCueBadge.textContent = `LỆNH 04 (SẴN SÀNG)`;
         elCueTitle.textContent = `${cue.icon} ${cue.name}`;
         elCueSignText.textContent = `Dấu hiệu: ${cue.stage1.sign}`;
         elGoLabel.textContent = `▶ KÍCH HOẠT (PHÍM CÁCH) = NHẠC NỀN 28%`;
       } else if (stage4Current === 1 && isPlaying) {
+        elBtnGo.disabled = false;
         elCueBadge.textContent = `LỆNH 04 (GIAI ĐOẠN 1/3)`;
         elCueTitle.textContent = `${cue.icon} NHẠC NỀN (28%)`;
         elCueSignText.textContent = `Dấu hiệu bấm tiếp: ${cue.stage2.sign}`;
         elGoLabel.textContent = `▶ PHÍM CÁCH = TĂNG CAO TRÀO 48%`;
       } else if (stage4Current === 2 && isPlaying) {
+        elBtnGo.disabled = false;
         elCueBadge.textContent = `LỆNH 04 (GIAI ĐOẠN 2/3)`;
         elCueTitle.textContent = `${cue.icon} CAO TRÀO THÔNG ĐIỆP (48%)`;
         elCueSignText.textContent = `Dấu hiệu bấm tiếp: ${cue.stage3.sign}`;
         elGoLabel.textContent = `▶ PHÍM CÁCH = BUNG ĐỈNH KẾT 72%`;
       } else if (stage4Current === 3 && isPlaying) {
+        elBtnGo.disabled = true;
         elCueBadge.textContent = `LỆNH 04 (GIAI ĐOẠN 3/3)`;
         elCueTitle.textContent = `${cue.icon} 🎆 ĐỈNH KẾT KỊCH BẢN (72%)`;
         elCueSignText.textContent = `Tự động giữ 72% ➔ Fade out 2.8s ➔ Tự động dừng`;
@@ -641,21 +645,23 @@
       `;
     }).join('');
 
-    if (!isPerformingMode) {
-      document.querySelectorAll('.cue-item-card').forEach(card => {
-        card.addEventListener('click', (e) => {
-          if (e.target.classList.contains('test-cue-btn')) return;
-          const idx = parseInt(card.getAttribute('data-index'));
-          if (confirm(`Chuyển sang Lệnh ${cues[idx].id} – ${cues[idx].name}?`)) {
-            stopCurrentAudio();
-            currentCueIndex = idx;
-            stage4Current = 1;
-            syncMasterVolumeToCue();
-            updateUI();
-          }
-        });
-      });
+    document.querySelectorAll('.cue-item-card').forEach(card => {
+      card.addEventListener('click', (e) => {
+        if (e.target.classList.contains('test-cue-btn')) return;
+        const idx = parseInt(card.getAttribute('data-index'));
+        const selectedCue = cues[idx];
+        const needsConfirmation = isPlaying || idx !== currentCueIndex;
+        if (needsConfirmation && !confirm(`Chuyển sang Lệnh ${selectedCue.id} – ${selectedCue.name}?`)) return;
 
+        stopCurrentAudio();
+        currentCueIndex = idx;
+        stage4Current = 1;
+        syncMasterVolumeToCue();
+        updateUI();
+      });
+    });
+
+    if (!isPerformingMode) {
       document.querySelectorAll('.test-cue-btn').forEach(btn => {
         btn.addEventListener('click', (e) => {
           e.stopPropagation();
@@ -734,6 +740,7 @@
       isAudioUnlocked = true;
       elStartScreen.style.display = 'none';
       elMainLayout.style.display = 'grid';
+      elBtnBackupMusic.classList.add('mobile-ready');
       const elSidebar = document.getElementById('sidebar-panel');
       if (elSidebar) elSidebar.style.display = 'flex';
       requestWakeLock();
