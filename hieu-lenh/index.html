@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <base href="/hieu-lenh/">
+  <title>HIỆU LỆNH ÂM THANH – HIỂM HỌA CHỰC CHỜ</title>
+
+  <!-- Google Fonts Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./hieulenh.css" />
+  <link rel="manifest" href="./sw.js" />
+</head>
+
+<body>
+  <!-- Focus Loss Alert -->
+  <div class="focus-warning-bar" id="focus-alert">
+    ⚠ ỨNG DỤNG VỪA MẤT TIÊU ĐIỂM! HÃY KIỂM TRA LỆNH ÂM THANH HIỆN TẠI TRƯỚC KHI KÍCH HOẠT.
+  </div>
+
+  <!-- Top Sticky Navigation Bar -->
+  <header class="top-bar">
+    <div class="brand-wrap">
+      <span class="brand-title">HIỆU LỆNH ÂM THANH</span>
+      <span class="brand-badge">HIỂM HỌA CHỰC CHỜ</span>
+      <span class="status-tag" id="wakelock-tag">⚪ Wake Lock</span>
+    </div>
+
+    <div class="top-controls">
+      <!-- Master Volume -->
+      <div class="volume-wrap">
+        <span>ÂM LƯỢNG TỔNG:</span>
+        <input type="range" id="master-vol-slider" min="0" max="1" step="0.05" value="0.7" />
+        <span id="master-vol-text">70%</span>
+      </div>
+
+      <!-- Mode Toggle -->
+      <button class="btn-header" id="btn-mode-toggle">🎭 CHẾ ĐỘ BIỂU DIỄN</button>
+
+      <!-- Settings Button -->
+      <button class="btn-header" id="btn-settings">⚙ CÀI ĐẶT</button>
+
+      <button class="btn-header" id="btn-backup-music">♫ NHẠC DỰ PHÒNG SÂN KHẤU</button>
+
+      <!-- Refresh cached app and audio files -->
+      <button class="btn-header" id="btn-refresh-audio">↻ LÀM MỚI ÂM THANH</button>
+
+      <!-- Fullscreen -->
+      <button class="btn-header" id="btn-fullscreen">⛶ TOÀN MÀN HÌNH</button>
+
+      <!-- Return to Quiz Main App -->
+      <a href="/" class="btn-header" style="text-decoration: none;">🏠 Trộn Đề ATVSLĐ</a>
+
+      <!-- Emergency Stop All -->
+      <button class="btn-header btn-stop-all" id="btn-stop-all">⛔ DỪNG KHẨN CẤP (ESC)</button>
+    </div>
+  </header>
+
+  <!-- Container -->
+  <div class="cue-app-layout">
+    <!-- MÀN HÌNH 1: KHỞI ĐỘNG (UNLOCK AUDIO) -->
+    <section class="start-screen" id="start-screen">
+      <div class="start-hero-card">
+        <h1>HIỆU LỆNH ÂM THANH</h1>
+        <h2>HIỂM HỌA CHỰC CHỜ</h2>
+        <p class="start-desc">
+          Hệ thống phát âm thanh biểu diễn sân khấu · Chuẩn hóa Web Audio API · Khả năng chạy Offline PWA
+        </p>
+
+        <div class="audio-check-list" id="audio-check-list">
+          <!-- Audio Preload Items dynamically loaded -->
+        </div>
+
+        <p id="start-status-text" class="start-status-notice">
+          ĐANG NẠP ÂM THANH – KHÔNG NÊN BẮT ĐẦU
+        </p>
+
+        <button class="btn-start-audio disabled" id="btn-start-audio" disabled>
+          🔊 KHỞI ĐỘNG ÂM THANH
+        </button>
+      </div>
+    </section>
+
+    <!-- MÀN HÌNH 2: GIAO DIỆN CHÍNH (BIỂU DIỄN & TẬP LUYỆN) -->
+    <main class="main-display" id="main-layout" style="display: none;">
+      <!-- Current Cue Large Panel -->
+      <div class="current-cue-card" id="current-cue-card">
+        <div class="cue-meta-header">
+          <span class="cue-number-badge" id="cue-badge">LỆNH 00</span>
+          <span class="cue-timer" id="cue-timer">00:00.0</span>
+        </div>
+
+        <div class="cue-title-large" id="cue-title">
+          🐕 CHÓ SỦA
+        </div>
+
+        <div class="cue-sign-box" id="cue-sign-text">
+          Dấu hiệu bấm: MC vừa đọc dứt câu: “Sau đây là tiểu phẩm Hiểm họa chực chờ!”
+        </div>
+
+        <div class="next-cue-preview" id="cue-next-text">
+          Tiếp theo: 01 – CHÓ SỦA
+        </div>
+
+        <!-- Nút kích hoạt chính -->
+        <button class="btn-go-huge" id="btn-go">
+          <span id="go-label">▶ KÍCH HOẠT (PHÍM CÁCH)</span>
+        </button>
+
+        <div class="shortcut-hint">
+          Bấm <kbd>PHÍM CÁCH</kbd> hoặc chạm nút <strong>KÍCH HOẠT</strong> để phát lệnh âm thanh hiện tại.
+        </div>
+
+        <!-- Dynamic Contextual Action Buttons -->
+        <div class="sub-actions-grid" id="sub-actions" style="display: none;">
+          <button class="btn-special btn-fade-stop" id="btn-fade-stop" style="display: none;">
+            ↓ GIẢM DẦN VÀ DỪNG <kbd>F</kbd>
+          </button>
+          <button class="btn-special btn-stop-all" id="btn-stop-now" style="display: none;">
+            ⛔ DỪNG NGAY
+          </button>
+          <button class="btn-special btn-climax" id="btn-climax" style="display: none;">
+            🔥 CAO TRÀO <kbd>PHÍM CÁCH</kbd>
+          </button>
+        </div>
+      </div>
+
+      <!-- Navigation Control Bar -->
+      <div class="bottom-controls">
+        <button class="btn-nav-cue" id="btn-prev-cue">← LỆNH TRƯỚC</button>
+        <button class="btn-nav-cue btn-reset" id="btn-reset">↻ VỀ LỆNH ĐẦU</button>
+        <button class="btn-nav-cue" id="btn-next-cue">LỆNH KẾ TẾP →</button>
+      </div>
+    </main>
+
+    <!-- DANH SÁCH LỆNH ÂM THANH -->
+    <aside class="sidebar-cues" id="sidebar-panel" style="display: none;">
+      <div class="sidebar-title">DANH SÁCH LỆNH KỊCH BẢN</div>
+      <div class="cue-list-group" id="sidebar-cue-list">
+        <!-- Rendered dynamically -->
+      </div>
+    </aside>
+  </div>
+
+  <!-- HỘP CÀI ĐẶT LỆNH ÂM THANH -->
+  <div class="modal-overlay" id="modal-settings" style="display: none;">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h2>⚙ CÀI ĐẶT THÔNG SỐ LỆNH ÂM THANH</h2>
+        <button class="btn-header" id="btn-close-settings">✕ ĐÓNG</button>
+      </div>
+
+      <table class="settings-table">
+        <thead>
+          <tr>
+            <th>Tên Lệnh</th>
+            <th>Âm lượng (%)</th>
+            <th>Bắt đầu giảm dần sau (giây)</th>
+            <th>Thời gian giảm dần (giây)</th>
+            <th>Thời lượng phát (s)</th>
+          </tr>
+        </thead>
+        <tbody id="settings-table-body">
+          <!-- Dynamically filled -->
+        </tbody>
+      </table>
+
+      <h3 class="log-box-title">📋 Nhật ký vận hành (Practice Log)</h3>
+      <div class="log-box" id="log-box"></div>
+
+      <div class="modal-actions">
+        <button class="btn-header btn-restore" id="btn-restore-default">↻ KHÔI PHỤC MẶC ĐỊNH</button>
+        <button class="btn-start-audio btn-save" id="btn-save-settings">💾 LƯU CẤU HÌNH</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="./hieulenh.js"></script>
+</body>
+
+</html>
