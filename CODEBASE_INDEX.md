@@ -89,7 +89,7 @@ hieu-lenh/index.html
        └─ initEvents()
             └─ triggerCue(index)
                  ├─ cue 01, 03 và nhạc dự phòng: AudioBufferSource + Gain automation
-                 └─ cue 04: chuỗi ba giai đoạn (nền → cao trào → đỉnh/fade)
+                 └─ cue 05: chuỗi ba giai đoạn (nền → cao trào → đỉnh/fade)
 ```
 
 ### Cue và tài nguyên
@@ -99,7 +99,8 @@ hieu-lenh/index.html
 | `00` | Nhạc dự phòng | Phát lặp khi có sự cố hoặc cần chờ sân khấu; dừng thủ công. |
 | `01` | Chó sủa | Phát ngắn, tự dừng. |
 | `03` | Rắn xuất hiện | Phát tức thời, tự dừng. |
-| `04` | Nhạc kết | Ba lần GO/SPACE: nền → cao trào → đỉnh, giữ và fade out tự động. |
+| `04` | Sấm chớp | Phát ngắn, tự dừng. |
+| `05` | Nhạc kết | Ba lần GO/SPACE: nền → cao trào → đỉnh, giữ và fade out tự động. |
 
 ### Điểm chỉnh sửa trong `hieulenh.js`
 
@@ -107,7 +108,7 @@ hieu-lenh/index.html
 - `preloadAllAudio()`: tải/giải mã audio; lỗi tệp sẽ dùng `createSyntheticBuffer()` thay thế.
 - `triggerCue()` và `handleCue04Sequence()`: logic phát cue.
 - `updateUI()`: đồng bộ thẻ cue hiện tại, sidebar, nút điều khiển.
-- `saveSettingsFromInputs()` / `loadSavedCues()`: lưu cấu hình cue trong `localStorage` với khóa `cue_configs_v2`.
+- `saveSettingsFromInputs()` / `loadSavedCues()`: lưu cấu hình cue trong `localStorage` với khóa `cue_configs_v3`.
 - Âm lượng master dùng khóa `cue_master_vol` trong `localStorage`.
 
 Phím tắt: `Space` phát/tiến cue, `F` fade & kết thúc, `Esc` dừng khẩn cấp, mũi tên trái/phải đổi cue khi không phát, `R` thử cue trong chế độ tập luyện.

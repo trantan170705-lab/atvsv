@@ -52,9 +52,22 @@
     },
     {
       id: "04",
+      name: "SẤM CHỚP",
+      icon: "⛈️",
+      file: "./audio/04_SAM_CHOP.mp3",
+      sign: "Sau lời động viên của Chị chủ nhà, trước câu: “Vậy thôi mình đi tiếp...”",
+      actionHint: "Bấm PHÍM CÁCH phát hiệu ứng sấm chớp ngắn",
+      volume: 0.65,
+      fadeIn: 0.03,
+      duration: 3.0,
+      fadeOut: 0.25,
+      autoStop: true
+    },
+    {
+      id: "05",
       name: "NHẠC KẾT – THÔNG ĐIỆP",
       icon: "🎆",
-      file: "./audio/04_NHAC_KET.mp3",
+      file: "./audio/05_NHAC_KET.mp3",
       sign: "Phân đoạn 3 bước kết thúc: Nhạc nền -> Tăng cao trào -> Đỉnh nhạc kết",
       actionHint: "Giai đoạn 1: Cán bộ An toàn bước ra ➔ PHÍM CÁCH (nhạc nền 28%)",
       stage1: {
@@ -92,7 +105,7 @@
   const savedMasterVolume = parseFloat(localStorage.getItem('cue_master_vol'));
   let masterVolume = Number.isFinite(savedMasterVolume) ? savedMasterVolume : 0.65;
   let currentCueIndex = 0;
-  let stage4Current = 1; // 1, 2, hoặc 3 cho Cue 04
+  let stage5Current = 1; // 1, 2, hoặc 3 cho Cue 05
   let isAudioUnlocked = false;
   let isPerformingMode = false; // Mặc định tập luyện; true: Biểu diễn, false: Tập luyện
   let isPlaying = false;
@@ -176,9 +189,9 @@
   }
 
   function getPresetVolume(cue) {
-    if (cue.id === '04') {
-      if (stage4Current === 2) return cue.stage2?.to ?? 0.48;
-      if (stage4Current === 3) return cue.stage3?.to ?? 0.72;
+    if (cue.id === '05') {
+      if (stage5Current === 2) return cue.stage2?.to ?? 0.48;
+      if (stage5Current === 3) return cue.stage3?.to ?? 0.72;
       return cue.stage1?.volume ?? 0.28;
     }
     return cue.volume ?? cue.automation?.[0]?.gain ?? 0.55;
@@ -225,7 +238,7 @@
     const sampleRate = audioCtx.sampleRate || 44100;
     let duration = 2.5;
     if (cueId === '00') duration = 30;
-    if (cueId === '04') duration = 40;
+    if (cueId === '05') duration = 40;
     const numSamples = Math.floor(sampleRate * duration);
     const buffer = audioCtx.createBuffer(2, numSamples, sampleRate);
     const channel0 = buffer.getChannelData(0);
@@ -236,7 +249,8 @@
       let freq = 440;
       if (cueId === '01') freq = 200 + Math.sin(t * 40) * 100;
       if (cueId === '03') freq = 800 + Math.random() * 1500;
-      if (cueId === '04') freq = 330 + Math.sin(t * 0.8) * 50;
+      if (cueId === '04') freq = 90 + Math.random() * 110;
+      if (cueId === '05') freq = 330 + Math.sin(t * 0.8) * 50;
 
       const val = Math.sin(2 * Math.PI * freq * t) * 0.4;
       channel0[i] = val;
@@ -272,9 +286,9 @@
     if (index < 0 || index >= cues.length) return;
     const cue = cues[index];
 
-    // Xử lý riêng cho Lệnh 04 theo 3 Giai đoạn
-    if (cue.id === "04") {
-      handleCue04Sequence();
+    // Xử lý riêng cho Lệnh 05 theo 3 giai đoạn kết thúc
+    if (cue.id === "05") {
+      handleCue05Sequence();
       return;
     }
 
@@ -393,13 +407,13 @@
     updateUI();
   }
 
-  // 6. Xử lý riêng Chuỗi 3 Giai Đoạn Lệnh 04 (Nhạc Kết / Thông Điệp)
-  function handleCue04Sequence() {
-    const cue = cues.find((item) => item.id === '04');
+  // 6. Xử lý riêng Chuỗi 3 Giai Đoạn Lệnh 05 (Nhạc Kết / Thông Điệp)
+  function handleCue05Sequence() {
+    const cue = cues.find((item) => item.id === '05');
     if (!cue) return;
     const buffer = audioBuffers[cue.id];
     if (!buffer) {
-      alert("Chưa nạp âm thanh cho Lệnh 04!");
+      alert("Chưa nạp âm thanh cho Lệnh 05!");
       return;
     }
 
@@ -407,7 +421,7 @@
     const now = audioCtx.currentTime;
 
     // GIAI ĐOẠN 1: Bấm SPACE lần 1 ➔ Nhạc Nền 28%
-    if (stage4Current === 1 && !isPlaying) {
+    if (stage5Current === 1 && !isPlaying) {
       stopCurrentAudio();
 
       currentSourceNode = audioCtx.createBufferSource();
@@ -427,15 +441,15 @@
 
       isPlaying = true;
       playbackStartTime = Date.now();
-      stage4Current = 1;
+      stage5Current = 1;
       syncMasterVolumeToCue(cue);
 
-      log(`[${nowStr()}] ▶ Lệnh 04 (Giai đoạn 1/3): NHẠC NỀN 28% STARTED`);
+      log(`[${nowStr()}] ▶ Lệnh 05 (Giai đoạn 1/3): NHẠC NỀN 28% STARTED`);
       startTimer();
       updateUI();
     }
     // GIAI ĐOẠN 2: Bấm SPACE lần 2 ➔ Tăng Cao Trào 28% -> 48%
-    else if (stage4Current === 1 && isPlaying) {
+    else if (stage5Current === 1 && isPlaying) {
       const fromVol = cue.stage2 ? cue.stage2.from : 0.28;
       const toVol = cue.stage2 ? cue.stage2.to : 0.48;
       const durationSec = cue.stage2 ? cue.stage2.duration : 1.2;
@@ -443,32 +457,32 @@
       currentGainNode.gain.setValueAtTime(currentGainNode.gain.value, now);
       currentGainNode.gain.linearRampToValueAtTime(toVol, now + durationSec);
 
-      stage4Current = 2;
+      stage5Current = 2;
       syncMasterVolumeToCue(cue);
-      log(`[${nowStr()}] 🔥 Lệnh 04 (Giai đoạn 2/3): TĂNG CAO TRÀO 48% (Ramp ${durationSec}s)`);
+      log(`[${nowStr()}] 🔥 Lệnh 05 (Giai đoạn 2/3): TĂNG CAO TRÀO 48% (Ramp ${durationSec}s)`);
       updateUI();
     }
     // GIAI ĐOẠN 3: Bấm SPACE lần 3 ➔ Bung Đỉnh Kết 72% -> Hold 1.8s -> Fade 2.8s -> Stop
-    else if (stage4Current === 2 && isPlaying) {
+    else if (stage5Current === 2 && isPlaying) {
       const stage3 = cue.stage3 || { from: 0.48, to: 0.72, riseDuration: 0.4, holdDuration: 1.8, fadeOutDuration: 2.8 };
       
       // Ramp từ 48% -> 72% trong 0.4s
       currentGainNode.gain.setValueAtTime(currentGainNode.gain.value, now);
       currentGainNode.gain.linearRampToValueAtTime(stage3.to, now + stage3.riseDuration);
 
-      stage4Current = 3;
+      stage5Current = 3;
       syncMasterVolumeToCue(cue);
-      log(`[${nowStr()}] 🎆 Lệnh 04 (Giai đoạn 3/3): BUNG ĐỈNH KẾT 72% -> HOLD ${stage3.holdDuration}s -> FADE ${stage3.fadeOutDuration}s`);
+      log(`[${nowStr()}] 🎆 Lệnh 05 (Giai đoạn 3/3): BUNG ĐỈNH KẾT 72% -> HOLD ${stage3.holdDuration}s -> FADE ${stage3.fadeOutDuration}s`);
       updateUI();
 
       // Sau khi Bung 72% + Hold 1.8s ➔ Tự động Fade về 0 trong 2.8s
       const totalHoldMs = (stage3.riseDuration + stage3.holdDuration) * 1000;
       const finaleTimeout = setTimeout(() => {
-        if (isPlaying && cues[currentCueIndex]?.id === '04') {
+        if (isPlaying && cues[currentCueIndex]?.id === '05') {
           log(`[${nowStr()}] 📉 Đã xong phần giữ 72% ➔ Đang fade về 0 trong ${stage3.fadeOutDuration}s...`);
           fadeAndStop(stage3.fadeOutDuration, () => {
             log(`[${nowStr()}] ✅ HOÀN THÀNH TOÀN BỘ TIỂU PHẨM`);
-            stage4Current = 1;
+            stage5Current = 1;
             isPlaying = false;
             stopTimer();
             updateUI();
@@ -485,7 +499,7 @@
     clearActiveCueTimeouts();
     if (currentCueIndex < cues.length - 1) {
       currentCueIndex++;
-      if (cues[currentCueIndex]?.id === '04') stage4Current = 1;
+      if (cues[currentCueIndex]?.id === '05') stage5Current = 1;
       syncMasterVolumeToCue();
       log(`[${nowStr()}] -> Chuyển sang Lệnh tiếp theo: ${cues[currentCueIndex].id}`);
     } else {
@@ -555,29 +569,29 @@
       elGoLabel.textContent = 'ĐANG PHÁT NHẠC DỰ PHÒNG...';
       elBtnGo.disabled = true;
     }
-    // Giao diện cho Lệnh 04 theo từng giai đoạn
-    else if (cue.id === "04") {
-      if (stage4Current === 1 && !isPlaying) {
+    // Giao diện cho Lệnh 05 theo từng giai đoạn
+    else if (cue.id === "05") {
+      if (stage5Current === 1 && !isPlaying) {
         elBtnGo.disabled = false;
-        elCueBadge.textContent = `LỆNH 04 (SẴN SÀNG)`;
+        elCueBadge.textContent = `LỆNH 05 (SẴN SÀNG)`;
         elCueTitle.textContent = `${cue.icon} ${cue.name}`;
         elCueSignText.textContent = `Dấu hiệu: ${cue.stage1.sign}`;
         elGoLabel.textContent = `▶ KÍCH HOẠT (PHÍM CÁCH) = NHẠC NỀN 28%`;
-      } else if (stage4Current === 1 && isPlaying) {
+      } else if (stage5Current === 1 && isPlaying) {
         elBtnGo.disabled = false;
-        elCueBadge.textContent = `LỆNH 04 (GIAI ĐOẠN 1/3)`;
+        elCueBadge.textContent = `LỆNH 05 (GIAI ĐOẠN 1/3)`;
         elCueTitle.textContent = `${cue.icon} NHẠC NỀN (28%)`;
         elCueSignText.textContent = `Dấu hiệu bấm tiếp: ${cue.stage2.sign}`;
         elGoLabel.textContent = `▶ PHÍM CÁCH = TĂNG CAO TRÀO 48%`;
-      } else if (stage4Current === 2 && isPlaying) {
+      } else if (stage5Current === 2 && isPlaying) {
         elBtnGo.disabled = false;
-        elCueBadge.textContent = `LỆNH 04 (GIAI ĐOẠN 2/3)`;
+        elCueBadge.textContent = `LỆNH 05 (GIAI ĐOẠN 2/3)`;
         elCueTitle.textContent = `${cue.icon} CAO TRÀO THÔNG ĐIỆP (48%)`;
         elCueSignText.textContent = `Dấu hiệu bấm tiếp: ${cue.stage3.sign}`;
         elGoLabel.textContent = `▶ PHÍM CÁCH = BUNG ĐỈNH KẾT 72%`;
-      } else if (stage4Current === 3 && isPlaying) {
+      } else if (stage5Current === 3 && isPlaying) {
         elBtnGo.disabled = true;
-        elCueBadge.textContent = `LỆNH 04 (GIAI ĐOẠN 3/3)`;
+        elCueBadge.textContent = `LỆNH 05 (GIAI ĐOẠN 3/3)`;
         elCueTitle.textContent = `${cue.icon} 🎆 ĐỈNH KẾT KỊCH BẢN (72%)`;
         elCueSignText.textContent = `Tự động giữ 72% ➔ Fade out 2.8s ➔ Tự động dừng`;
         elGoLabel.textContent = `ĐANG TỰ ĐỘNG HOÀN THÀNH KẾT THÚC...`;
@@ -608,16 +622,25 @@
     elBtnStopNow.style.display = 'none';
     elBtnClimax.style.display = 'none';
 
+    // Các hiệu ứng ngắn tự dừng nhanh; luôn hiển thị nút F để người điều khiển
+    // biết vị trí dừng mềm và có thể bấm ngay khi âm thanh đang phát.
+    const showFadeControl = isBackupPlaying || ['01', '03', '04', '05'].includes(cue.id);
+    if (showFadeControl) {
+      elSubActions.style.display = 'grid';
+      elBtnFadeStop.style.display = 'flex';
+      elBtnFadeStop.disabled = !isPlaying;
+      if (isBackupPlaying) {
+        elBtnFadeStop.innerHTML = `↓ GIẢM DẦN VÀ KẾT THÚC (F)`;
+      } else if (cue.id === '05') {
+        elBtnFadeStop.innerHTML = `↓ FADE & KẾT THÚC (F)`;
+      } else {
+        elBtnFadeStop.innerHTML = `↓ GIẢM DẦN & DỪNG (F)`;
+      }
+    }
+
     if (isPlaying) {
       elSubActions.style.display = 'grid';
       elBtnStopNow.style.display = 'flex';
-      if (isBackupPlaying) {
-        elBtnFadeStop.style.display = 'flex';
-        elBtnFadeStop.innerHTML = `↓ GIẢM DẦN VÀ KẾT THÚC (F)`;
-      } else if (cue.id === '04' && stage4Current < 3) {
-        elBtnFadeStop.style.display = 'flex';
-        elBtnFadeStop.innerHTML = `↓ FADE & KẾT THÚC (F)`;
-      }
     }
 
     // Sidebar list
@@ -655,7 +678,7 @@
 
         stopCurrentAudio();
         currentCueIndex = idx;
-        stage4Current = 1;
+        stage5Current = 1;
         syncMasterVolumeToCue();
         updateUI();
       });
@@ -668,7 +691,7 @@
           const idx = parseInt(btn.getAttribute('data-index'));
           stopCurrentAudio();
           currentCueIndex = idx;
-          stage4Current = 1;
+          stage5Current = 1;
           syncMasterVolumeToCue();
           triggerCue(idx);
         });
@@ -751,7 +774,7 @@
 
     elBtnGo.addEventListener('click', () => {
       if (isBackupPlaying) return;
-      if (cues[currentCueIndex]?.id === '04' && stage4Current === 3) return;
+      if (cues[currentCueIndex]?.id === '05' && stage5Current === 3) return;
       triggerCue(currentCueIndex);
     });
 
@@ -760,7 +783,7 @@
       const wasBackupPlaying = isBackupPlaying;
       const fadeDuration = isBackupPlaying
         ? BACKUP_CUE.manualFadeOut
-        : (cue.id === '04' ? (cue.stage3 ? cue.stage3.fadeOutDuration : 2.8) : (cue.manualFadeOut || 2.0));
+        : (cue.id === '05' ? (cue.stage3 ? cue.stage3.fadeOutDuration : 2.8) : (cue.manualFadeOut || 2.0));
       fadeAndStop(fadeDuration, () => {
         if (wasBackupPlaying) updateUI();
         else advanceToNextCue();
@@ -783,7 +806,7 @@
         if (confirm(`Bạn có chắc muốn quay lại Lệnh ${cues[currentCueIndex - 1].id}?`)) {
           stopCurrentAudio();
           currentCueIndex--;
-          stage4Current = 1;
+          stage5Current = 1;
           syncMasterVolumeToCue();
           updateUI();
         }
@@ -795,7 +818,7 @@
         if (confirm(`Bỏ qua Lệnh hiện tại và nhảy tới Lệnh ${cues[currentCueIndex + 1].id}?`)) {
           stopCurrentAudio();
           currentCueIndex++;
-          stage4Current = 1;
+          stage5Current = 1;
           syncMasterVolumeToCue();
           updateUI();
         }
@@ -806,7 +829,7 @@
       if (confirm('Bạn có chắc chắn muốn đưa chương trình về Lệnh 01?')) {
         stopCurrentAudio();
         currentCueIndex = 0;
-        stage4Current = 1;
+        stage5Current = 1;
         syncMasterVolumeToCue();
         updateUI();
         log(`[${nowStr()}] ↻ Đã đưa chương trình về Lệnh 01.`);
@@ -846,6 +869,7 @@
       if (confirm('Khôi phục toàn bộ cài đặt thông số về mặc định ban đầu của kịch bản?')) {
         cues = JSON.parse(JSON.stringify(DEFAULT_CUES)).filter((cue) => cue.id !== '00');
         localStorage.removeItem('cue_configs_v2');
+        localStorage.removeItem('cue_configs_v3');
         renderSettingsModal();
         syncMasterVolumeToCue();
         updateUI();
@@ -880,7 +904,7 @@
           const wasBackupPlaying = isBackupPlaying;
           const fadeDuration = isBackupPlaying
             ? BACKUP_CUE.manualFadeOut
-            : (cue.id === '04' ? (cue.stage3 ? cue.stage3.fadeOutDuration : 2.8) : (cue.manualFadeOut || 2.0));
+            : (cue.id === '05' ? (cue.stage3 ? cue.stage3.fadeOutDuration : 2.8) : (cue.manualFadeOut || 2.0));
           fadeAndStop(fadeDuration, () => {
             if (wasBackupPlaying) updateUI();
             else advanceToNextCue();
@@ -889,14 +913,14 @@
       } else if (e.code === 'ArrowLeft') {
         if (!isPlaying && currentCueIndex > 0) {
           currentCueIndex--;
-          stage4Current = 1;
+          stage5Current = 1;
           syncMasterVolumeToCue();
           updateUI();
         }
       } else if (e.code === 'ArrowRight') {
         if (!isPlaying && currentCueIndex < cues.length - 1) {
           currentCueIndex++;
-          stage4Current = 1;
+          stage5Current = 1;
           syncMasterVolumeToCue();
           updateUI();
         }
@@ -963,12 +987,12 @@
       }
       if (durInput) c.duration = parseFloat(durInput.value);
     });
-    localStorage.setItem('cue_configs_v2', JSON.stringify(cues));
+    localStorage.setItem('cue_configs_v3', JSON.stringify(cues));
     log(`[${nowStr()}] 💾 Đã lưu thông số Lệnh Âm Thanh vào LocalStorage.`);
   }
 
   function loadSavedCues() {
-    const saved = localStorage.getItem('cue_configs_v2');
+    const saved = localStorage.getItem('cue_configs_v3');
     if (saved) {
       try {
         return JSON.parse(saved).filter((cue) => cue.id !== '00' && cue.id !== '02');

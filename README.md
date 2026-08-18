@@ -77,4 +77,4 @@ git push -u origin main
 - `app.js`: Nhúng toàn bộ ngân hàng câu hỏi và xử lý logic hoán vị/chấm điểm.
 - `hieu-lenh/index.html` & `hieu-lenh/hieulenh.js`: Giao diện và bộ điều khiển âm thanh sân khấu.
 - `hieu-lenh/HUONG_DAN_SU_DUNG_CUE.md`: Hướng dẫn vận hành Web Hiệu lệnh tiếng Việt.
-- `hieu-lenh/audio/`: Thư mục chứa 4 tệp MP3: nhạc dự phòng, chó sủa, rắn xuất hiện và nhạc kết.
+- `hieu-lenh/audio/`: Thư mục chứa 5 tệp MP3: nhạc dự phòng, chó sủa, rắn xuất hiện, sấm chớp và nhạc kết.
