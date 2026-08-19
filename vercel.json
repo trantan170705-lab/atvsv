@@ -7,7 +7,8 @@
     { "source": "/hieulenh.html", "destination": "/hieu-lenh", "statusCode": 301 }
   ],
   "rewrites": [
-    { "source": "/hieu-lenh", "destination": "/hieu-lenh/index.html" }
+    { "source": "/hieu-lenh", "destination": "/hieu-lenh/index.html" },
+    { "source": "/tu-luan", "destination": "/tu-luan/index.html" }
   ],
   "headers": [
     {

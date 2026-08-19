@@ -13,6 +13,7 @@ Website tĩnh tạo đề trắc nghiệm, trộn câu hỏi/đáp án ngẫu nh
 - **Luyện tập theo chuyên mục & Toàn bộ 120 câu:** Cho phép luyện tập riêng từng phần (I, II, III) hoặc làm trọn vẹn cả 120 câu.
 - **Chấm điểm & Xem chi tiết đáp án:** Hiển thị số câu đúng, điểm số hệ 10, tỷ lệ phần trăm và xem lại từng câu làm đúng/sai ngay sau khi nộp bài.
 - **🎭 Web Hiệu Lệnh Âm Thanh Sân Khấu (`/hieu-lenh` / `hieulenh.html`):** Ứng dụng bấm âm thanh theo lệnh chuyên dụng dành cho tiểu phẩm *"Hiểm họa chực chờ"*, điều khiển bằng Web Audio API, hỗ trợ PWA offline 100%, chống bấm nhầm và khóa re-trigger phím `SPACE`.
+- **🎲 Quay câu hỏi tự luận (`/tu-luan`):** Chọn thí sinh, lọc chủ đề và quay ngẫu nhiên câu hỏi; UI chỉ hiển thị câu hỏi để trả bài trực tiếp.
 
 ## 🎭 WEB HIỆU LỆNH ÂM THANH SÂN KHẤU ("HIỂM HỌA CHỰC CHỜ")
 

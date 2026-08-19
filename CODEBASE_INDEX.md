@@ -6,6 +6,8 @@
 atvsv/
 ├── trac-nghiem/       # app.js, styles.css, dữ liệu câu hỏi
 ├── hieu-lenh/         # hieulenh.*, sw.js, audio/, hướng dẫn audio
+├── tu-luan/            # trang quay câu hỏi tự luận theo thí sinh/chủ đề
+├── Học lý thuyết/      # tài liệu DOCX nguồn và các bản chuyển Markdown
 ├── index.html         # trang trắc nghiệm ở URL gốc /
 └── vercel.json
 ```
@@ -15,7 +17,8 @@ atvsv/
 Đây là website tĩnh (HTML/CSS/JavaScript thuần) phục vụ Hội thi An toàn vệ sinh viên giỏi 2026. Dự án có hai ứng dụng độc lập:
 
 1. **Trộn đề & chấm điểm**: trang gốc, chọn đề, làm bài và xem đáp án.
-2. **Web hiệu lệnh âm thanh sân khấu**: `/hieu-lenh`, phát và điều khiển 3 cue kịch bản cùng 1 nhạc dự phòng.
+2. **Web hiệu lệnh âm thanh sân khấu**: `/hieu-lenh`, phát và điều khiển 4 cue kịch bản cùng 1 nhạc dự phòng.
+3. **Quay câu hỏi tự luận**: `/tu-luan`, chọn Kha/Tú/Vy và quay câu hỏi theo chủ đề.
 
 Không có bước build, framework hay backend. Lệnh chạy cục bộ là `npm run dev` (dùng `npx serve .`).
 
@@ -25,6 +28,7 @@ Không có bước build, framework hay backend. Lệnh chạy cục bộ là `n
 | --- | --- | --- |
 | `/` / `index.html` | Ứng dụng trắc nghiệm | `trac-nghiem/styles.css`, `trac-nghiem/app.js` |
 | `/hieu-lenh` | Bảng điều khiển âm thanh | `hieu-lenh/index.html`, `hieulenh.css`, `hieulenh.js`, `sw.js` |
+| `/tu-luan` | Trang quay câu hỏi tự luận | `tu-luan/index.html`, `styles.css`, `app.js` |
 | `/hieulenh` / `/hieulenh.html` | Tuyến cũ; chuyển hướng về `/hieu-lenh` | Vercel redirect |
 
 `vercel.json` thiết lập clean URL, các redirect/rewrites trên và header chống cache dài hạn.

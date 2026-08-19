@@ -33,22 +33,22 @@
       fadeIn: 0.03,
       duration: 2.45,
       fadeOut: 0.15,
+      manualFadeOut: 0.25,
       autoStop: true
     },
     {
       id: "03",
       name: "RẮN XUẤT HIỆN",
       icon: "🐍",
-      file: "./audio/03_RAN_GIAT_MINH.mp3",
+      file: "./audio/03_RAN_GIAT_MINH.mp3?v=20260819-7s",
       sign: "Vừa mở nắp đồng hồ thì con rắn chạy ra",
-      actionHint: "Bấm PHÍM CÁCH đúng lúc rắn xuất hiện (âm lượng 80% -> 70%, tự dừng ở 1,05 giây)",
-      automation: [
-        { time: 0.00, gain: 0.80 },
-        { time: 0.12, gain: 0.72 },
-        { time: 0.75, gain: 0.70 },
-        { time: 1.00, gain: 0.00 }
-      ],
-      stopAt: 1.05
+      actionHint: "Bấm PHÍM CÁCH đúng lúc rắn xuất hiện (phát tối đa 7 giây, có thể bấm F để giảm dần và dừng)",
+      volume: 0.80,
+      fadeIn: 0.03,
+      duration: 7,
+      fadeOut: 0.35,
+      manualFadeOut: 1.2,
+      autoStop: true
     },
     {
       id: "04",
@@ -61,6 +61,7 @@
       fadeIn: 0.03,
       duration: 3.0,
       fadeOut: 0.25,
+      manualFadeOut: 0.5,
       autoStop: true
     },
     {
@@ -535,10 +536,21 @@
       if (callback) callback();
       return;
     }
+    // Hủy lịch tự dừng/fade cũ trước để không cắt ngang fade thủ công.
+    clearActiveCueTimeouts();
     const now = audioCtx.currentTime;
-    const currentVol = currentGainNode.gain.value;
+    const activeCue = isBackupPlaying ? BACKUP_CUE : cues[currentCueIndex];
+    // AudioParam.value có thể vẫn là 0 khi fade-in đang được lập lịch. Lấy mức
+    // cấu hình của cue để bảo đảm luôn nghe được quá trình giảm âm thật sự.
+    const configuredVol = isBackupPlaying
+      ? BACKUP_CUE.volume
+      : getPresetVolume(activeCue);
+    const currentVol = Math.max(currentGainNode.gain.value, configuredVol);
+    currentGainNode.gain.cancelScheduledValues(now);
     currentGainNode.gain.setValueAtTime(currentVol, now);
     currentGainNode.gain.linearRampToValueAtTime(0, now + durationSeconds);
+
+    elBtnFadeStop.disabled = true;
 
     const label = isBackupPlaying ? 'nhạc dự phòng sân khấu' : `Lệnh ${cues[currentCueIndex].id}`;
     log(`[${nowStr()}] 📉 Giảm dần (${durationSeconds}s) ${label}`);
@@ -547,7 +559,7 @@
       stopCurrentAudio();
       if (callback) callback();
       else updateUI();
-    }, durationSeconds * 1000);
+    }, durationSeconds * 1000 + 30);
   }
 
   // 7. Navigation & UI Updates
@@ -741,11 +753,12 @@
         }
 
         if ('serviceWorker' in navigator) {
-          const registration = await navigator.serviceWorker.getRegistration();
-          if (registration) await registration.update();
+          const registrations = await navigator.serviceWorker.getRegistrations();
+          await Promise.all(registrations.map((registration) => registration.update()));
         }
 
-        location.reload();
+        // Query mới buộc lần tải lại kế tiếp không lấy HTML/JS cũ theo URL cache cũ.
+        location.replace(`${location.pathname}?audio-refresh=${Date.now()}`);
       } catch (err) {
         console.error('Không thể làm mới âm thanh:', err);
         alert('Không thể làm mới cache. Hãy kiểm tra kết nối mạng rồi thử lại.');
@@ -870,6 +883,8 @@
         cues = JSON.parse(JSON.stringify(DEFAULT_CUES)).filter((cue) => cue.id !== '00');
         localStorage.removeItem('cue_configs_v2');
         localStorage.removeItem('cue_configs_v3');
+        localStorage.removeItem('cue_configs_v4');
+        localStorage.removeItem('cue_configs_v5');
         renderSettingsModal();
         syncMasterVolumeToCue();
         updateUI();
@@ -987,12 +1002,12 @@
       }
       if (durInput) c.duration = parseFloat(durInput.value);
     });
-    localStorage.setItem('cue_configs_v3', JSON.stringify(cues));
+    localStorage.setItem('cue_configs_v5', JSON.stringify(cues));
     log(`[${nowStr()}] 💾 Đã lưu thông số Lệnh Âm Thanh vào LocalStorage.`);
   }
 
   function loadSavedCues() {
-    const saved = localStorage.getItem('cue_configs_v3');
+    const saved = localStorage.getItem('cue_configs_v5');
     if (saved) {
       try {
         return JSON.parse(saved).filter((cue) => cue.id !== '00' && cue.id !== '02');

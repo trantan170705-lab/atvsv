@@ -1,11 +1,11 @@
-const CACHE_NAME = 'hieulenh-audio-v23';
+const CACHE_NAME = 'hieulenh-audio-v26';
 const ASSETS_TO_CACHE = [
   './index.html',
   './hieulenh.css',
   './hieulenh.js',
   './audio/00_NHAC_MO_DON_SAN_KHAU.mp3',
   './audio/01_CHO_SUA.mp3',
-  './audio/03_RAN_GIAT_MINH.mp3',
+  './audio/03_RAN_GIAT_MINH.mp3?v=20260819-7s',
   './audio/04_SAM_CHOP.mp3',
   './audio/05_NHAC_KET.mp3'
 ];
