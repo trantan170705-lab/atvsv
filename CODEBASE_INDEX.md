@@ -7,7 +7,7 @@ atvsv/
 ├── trac-nghiem/       # app.js, styles.css, dữ liệu câu hỏi
 ├── hieu-lenh/         # hieulenh.*, sw.js, audio/, hướng dẫn audio
 ├── tu-luan/            # trang quay câu hỏi tự luận theo thí sinh/chủ đề
-├── Học lý thuyết/      # tài liệu DOCX nguồn và các bản chuyển Markdown
+├── Học lý thuyết/      # tài liệu DOCX nguồn
 ├── index.html         # trang trắc nghiệm ở URL gốc /
 └── vercel.json
 ```
