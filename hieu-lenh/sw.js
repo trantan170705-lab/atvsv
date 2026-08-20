@@ -1,4 +1,4 @@
-const CACHE_NAME = 'hieulenh-audio-v26';
+const CACHE_NAME = 'hieulenh-audio-v27';
 const ASSETS_TO_CACHE = [
   './index.html',
   './hieulenh.css',

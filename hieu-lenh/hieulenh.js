@@ -28,12 +28,12 @@
       icon: "🐕",
       file: "./audio/01_CHO_SUA.mp3",
       sign: "Phượng vừa chạy vào, ngay trước câu: “Ủa kìa, chị Phượng tới kìa!”",
-      actionHint: "Bấm PHÍM CÁCH để phát tiếng chó sủa (72% trong 2,45 giây, tự dừng)",
-      volume: 0.72,
+      actionHint: "Bấm PHÍM CÁCH để phát tiếng chó sủa (100% trong tối đa 3,25 giây, tự dừng)",
+      volume: 1.00,
       fadeIn: 0.03,
-      duration: 2.45,
-      fadeOut: 0.15,
-      manualFadeOut: 0.25,
+      duration: 3.25,
+      fadeOut: 0.35,
+      manualFadeOut: 0.35,
       autoStop: true
     },
     {
@@ -42,12 +42,12 @@
       icon: "🐍",
       file: "./audio/03_RAN_GIAT_MINH.mp3?v=20260819-7s",
       sign: "Vừa mở nắp đồng hồ thì con rắn chạy ra",
-      actionHint: "Bấm PHÍM CÁCH đúng lúc rắn xuất hiện (phát tối đa 7 giây, có thể bấm F để giảm dần và dừng)",
-      volume: 0.80,
+      actionHint: "Bấm PHÍM CÁCH đúng lúc rắn xuất hiện (phát tối đa 4 giây, có thể bấm F để giảm dần và dừng)",
+      volume: 1.00,
       fadeIn: 0.03,
-      duration: 7,
+      duration: 4,
       fadeOut: 0.35,
-      manualFadeOut: 1.2,
+      manualFadeOut: 0.35,
       autoStop: true
     },
     {
@@ -56,12 +56,12 @@
       icon: "⛈️",
       file: "./audio/04_SAM_CHOP.mp3",
       sign: "Sau lời động viên của Chị chủ nhà, trước câu: “Vậy thôi mình đi tiếp...”",
-      actionHint: "Bấm PHÍM CÁCH phát hiệu ứng sấm chớp ngắn",
-      volume: 0.65,
+      actionHint: "Bấm PHÍM CÁCH phát hiệu ứng sấm chớp (100% trong tối đa 3,2 giây, tự dừng)",
+      volume: 1.00,
       fadeIn: 0.03,
-      duration: 3.0,
+      duration: 3.2,
       fadeOut: 0.25,
-      manualFadeOut: 0.5,
+      manualFadeOut: 0.25,
       autoStop: true
     },
     {
@@ -885,6 +885,7 @@
         localStorage.removeItem('cue_configs_v3');
         localStorage.removeItem('cue_configs_v4');
         localStorage.removeItem('cue_configs_v5');
+        localStorage.removeItem('cue_configs_v6');
         renderSettingsModal();
         syncMasterVolumeToCue();
         updateUI();
@@ -1002,12 +1003,12 @@
       }
       if (durInput) c.duration = parseFloat(durInput.value);
     });
-    localStorage.setItem('cue_configs_v5', JSON.stringify(cues));
+    localStorage.setItem('cue_configs_v6', JSON.stringify(cues));
     log(`[${nowStr()}] 💾 Đã lưu thông số Lệnh Âm Thanh vào LocalStorage.`);
   }
 
   function loadSavedCues() {
-    const saved = localStorage.getItem('cue_configs_v5');
+    const saved = localStorage.getItem('cue_configs_v6');
     if (saved) {
       try {
         return JSON.parse(saved).filter((cue) => cue.id !== '00' && cue.id !== '02');
