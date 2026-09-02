@@ -28,12 +28,12 @@
       icon: "🐕",
       file: "./audio/01_CHO_SUA.mp3",
       sign: "Phượng vừa chạy vào, ngay trước câu: “Ủa kìa, chị Phượng tới kìa!”",
-      actionHint: "Bấm PHÍM CÁCH để phát tiếng chó sủa (100% trong tối đa 3,25 giây, tự dừng)",
+      actionHint: "Bấm PHÍM CÁCH để phát tiếng chó sủa (100% trong tối đa 13,7 giây, tự dừng)",
       volume: 1.00,
       fadeIn: 0.03,
-      duration: 3.25,
-      fadeOut: 0.35,
-      manualFadeOut: 0.35,
+      duration: 13.70,
+      fadeOut: 0.55,
+      manualFadeOut: 0.55,
       autoStop: true
     },
     {
