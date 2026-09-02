@@ -1,0 +1,3007 @@
+[
+  {
+    "id": 1,
+    "sec_num": 1,
+    "section": "I. KIẾN THỨC VỀ ATVSLĐ - PCCN",
+    "question": "Yêu cầu nào đối với các thiết bị có yêu cầu nghiêm ngặt về an toàn lao động như bình chịu áp lực, thiết bị nâng... trước khi đưa vào sử dụng?",
+    "options": [
+      {
+        "text": "Công nhân vận hành thiết bị phải có chứng chỉ về chuyên môn, nắm được nguyên tắc an toàn khi sử dụng và có thẻ an toàn lao động.",
+        "bold": false
+      },
+      {
+        "text": "Ban hành và niêm yết nội quy an toàn, quy trình vận hành, quy trình xử lý sự cố tại nơi để thiết bị ở vị trí dễ thấy, dễ đọc.",
+        "bold": false
+      },
+      {
+        "text": "Phải được kiểm định kỹ thuật an toàn với cơ quan có thẩm quyền theo quy định.",
+        "bold": false
+      },
+      {
+        "text": "Cả a, b và c đều đúng.",
+        "bold": true
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": 2,
+    "sec_num": 2,
+    "section": "I. KIẾN THỨC VỀ ATVSLĐ - PCCN",
+    "question": "Điều kiện cần thiết cho sự cháy xảy ra khi có đủ các yếu tố?",
+    "options": [
+      {
+        "text": "Chất cháy, O-xy trong không khí",
+        "bold": false
+      },
+      {
+        "text": "Nguồn nhiệt.",
+        "bold": false
+      },
+      {
+        "text": "Chất cháy và nguồn nhiệt.",
+        "bold": false
+      },
+      {
+        "text": "Cả a và b đều đúng.",
+        "bold": true
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": 3,
+    "sec_num": 3,
+    "section": "I. KIẾN THỨC VỀ ATVSLĐ - PCCN",
+    "question": "Khi chữa cháy đám cháy xăng dầu ta không được sử dụng loại gì?",
+    "options": [
+      {
+        "text": "Cát",
+        "bold": false
+      },
+      {
+        "text": "Bình bọt AB",
+        "bold": false
+      },
+      {
+        "text": "Bình bọt MFZ",
+        "bold": false
+      },
+      {
+        "text": "Cả 3 câu trả lời trên đều sai",
+        "bold": true
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": 4,
+    "sec_num": 4,
+    "section": "I. KIẾN THỨC VỀ ATVSLĐ - PCCN",
+    "question": "An toàn lao động là gì?",
+    "options": [
+      {
+        "text": "An toàn lao động là giải pháp phòng, chống tác động của các yếu tố nguy hiểm nhằm bảo đảm không xảy ra thương tật, tử vong đối với con người trong quá trình lao động.",
+        "bold": true
+      },
+      {
+        "text": "An toàn lao động là không xảy ra tai nạn lao động và bệnh nghề nghiệp.",
+        "bold": false
+      },
+      {
+        "text": "An toàn lao động là giải pháp phòng, chống tác động của yếu tố có hại gây bệnh tật, làm suy giảm sức khỏe cho con người trong quá trình lao động.",
+        "bold": false
+      },
+      {
+        "text": "Cả a,b,c đều sai.",
+        "bold": false
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": 5,
+    "sec_num": 5,
+    "section": "I. KIẾN THỨC VỀ ATVSLĐ - PCCN",
+    "question": "Chính phủ quy định thời gian tự kiểm tra định kỳ về ATVSLĐ đối với những đơn vị hoạt động trong lĩnh vực có nguy cơ cao về tai nạn lao động, bệnh nghề nghiệp như thế nào?",
+    "options": [
+      {
+        "text": "Ít nhất 01 lần trong 03 tháng ở cấp cơ sở sản xuất, kinh doanh và 01 lần trong 01 tháng ở cấp phân xưởng, tổ, đội sản xuất hoặc tương đương.",
+        "bold": false
+      },
+      {
+        "text": "Ít nhất 01 lần trong 1 năm ở cấp cơ sở sản xuất, kinh doanh và 01 lần trong 06 tháng ở cấp phân xưởng, tổ, đội sản xuất hoặc tương đương.",
+        "bold": true
+      },
+      {
+        "text": "Ít nhất 01 lần trong 06 tháng ở cấp cơ sở sản xuất, kinh doanh và 01 lần trong 03 tháng ở cấp phân xưởng, tổ, đội sản xuất hoặc tương đương.",
+        "bold": false
+      },
+      {
+        "text": "Doanh nghiệp tự quyết định số lần kiểm tra hoặc có kiểm tra hay không.",
+        "bold": false
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": 6,
+    "sec_num": 6,
+    "section": "I. KIẾN THỨC VỀ ATVSLĐ - PCCN",
+    "question": "Vệ sinh lao động là gì?",
+    "options": [
+      {
+        "text": "Vệ sinh lao động là giải pháp phòng, chống tác động của các yếu tố nguy hiểm nhằm bảo đảm không xảy ra thương tật, tử vong đối với con người trong quá trình lao động.",
+        "bold": false
+      },
+      {
+        "text": "Vệ sinh lao động là giải pháp an toàn nhất trong quá trình lao động.",
+        "bold": false
+      },
+      {
+        "text": "Vệ sinh lao động là giải pháp phòng, chống tác động của yếu tố có hại gây bệnh tật, làm suy giảm sức khỏe cho con người trong quá trình lao động.",
+        "bold": false
+      },
+      {
+        "text": "Cả a,b,c đều sai.",
+        "bold": true
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": 7,
+    "sec_num": 7,
+    "section": "I. KIẾN THỨC VỀ ATVSLĐ - PCCN",
+    "question": "Biện pháp che chắn vùng nguy hiểm nhằm mục đích chính là?",
+    "options": [
+      {
+        "text": "Ngăn ngừa sự cố của thiết bị",
+        "bold": false
+      },
+      {
+        "text": "Không cho yếu tố nguy hiểm tác động lên người lao động",
+        "bold": false
+      },
+      {
+        "text": "Báo trước cho người lao động sự cố có thể xảy ra",
+        "bold": false
+      },
+      {
+        "text": "Cả a và c",
+        "bold": true
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": 8,
+    "sec_num": 8,
+    "section": "I. KIẾN THỨC VỀ ATVSLĐ - PCCN",
+    "question": "Chính phủ quy định nội dung tự kiểm tra định kỳ về ATVSLĐ ở cơ sở lao động như thế nào?",
+    "options": [
+      {
+        "text": "Kiểm tra chặt chẽ toàn bộ hệ thống phòng cháy.",
+        "bold": false
+      },
+      {
+        "text": "Kiểm tra tất cả máy, thiết bị, môi trường làm việc, việc sử dụng, bảo quản trang bị phương tiện bảo vệ cá nhân.",
+        "bold": false
+      },
+      {
+        "text": "Kiểm tra các yếu tố môi trường làm việc, tác phong làm việc, ý thức chấp hành kỷ luật của người lao động, tình trạng an toàn của máy thiết bị, hệ thống phòng cháy chữa cháy, ...",
+        "bold": true
+      },
+      {
+        "text": "Kiểm tra hệ thống điện, môi trường xung quanh khu vực làm việc.",
+        "bold": false
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": 9,
+    "sec_num": 9,
+    "section": "I. KIẾN THỨC VỀ ATVSLĐ - PCCN",
+    "question": "Theo quy định về cơ cấu tổ chức, An toàn vệ sinh viên phải là?",
+    "options": [
+      {
+        "text": "Người có kiến thức đầy đủ về an toàn vệ sinh lao động, được chủ doanh nghiệp tin nhiệm.",
+        "bold": false
+      },
+      {
+        "text": "Người có thâm niên công tác từ 10 năm trở lên và phải có kiến thức, kinh nghiệm, nhiệt tình với công việc",
+        "bold": false
+      },
+      {
+        "text": "Phải là người có trình độ chuyên môn cao, nhiệt tình, gương mẫu và có kiến thức đầy đủ về an toàn vệ sinh lao động.",
+        "bold": false
+      },
+      {
+        "text": "Là người lao động động trực tiếp sản xuất, am hiểu chuyên môn, kỹ thuật an toàn vệ sinh lao động, tự nguyện và gương mẫu.",
+        "bold": true
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": 10,
+    "sec_num": 10,
+    "section": "I. KIẾN THỨC VỀ ATVSLĐ - PCCN",
+    "question": "Yếu tố nguy hiểm là gì?",
+    "options": [
+      {
+        "text": "Yếu tố nguy hiểm là yếu tố gây mất an toàn, làm tổn thương hoặc gây tử vong cho con người trong quá trình lao động.",
+        "bold": true
+      },
+      {
+        "text": "Yếu tố nguy hiểm là yếu tố có thể gây ra tai nạn lao động và bệnh nghề nghiệp",
+        "bold": false
+      },
+      {
+        "text": "Yếu tố nguy hiểm là yếu tố gây ra cháy, nổ, mất an toàn lao động",
+        "bold": false
+      },
+      {
+        "text": "Yếu tố nguy hiểm là yếu tố có hại.",
+        "bold": false
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": 11,
+    "sec_num": 11,
+    "section": "I. KIẾN THỨC VỀ ATVSLĐ - PCCN",
+    "question": "Yếu tố có hại là gì?",
+    "options": [
+      {
+        "text": "Yếu tố có hại là yếu tố gây mất an toàn, làm tổn thương hoặc gây tử vong cho con người trong quá trình lao động",
+        "bold": false
+      },
+      {
+        "text": "Yếu tố có hại là yếu tố gây bệnh tật, làm suy giảm sức khỏe con người trong quá trình lao động.",
+        "bold": true
+      },
+      {
+        "text": "Yếu tố có hại là yếu tố tác động làm người lao động bị bệnh nghề nghiệp sau quá trình lao động.",
+        "bold": false
+      },
+      {
+        "text": "Cả a, b, c đều đúng",
+        "bold": false
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": 12,
+    "sec_num": 12,
+    "section": "I. KIẾN THỨC VỀ ATVSLĐ - PCCN",
+    "question": "Theo quy định của Luật An toàn vệ sinh lao động, người sử dụng lao động có quyền như thế nào đối với công tác ATVSLĐ ?",
+    "options": [
+      {
+        "text": "Yêu cầu người lao động phải chấp hành các nội quy, quy trình, biện pháp bảo đảm an toàn, vệ sinh lao động tại nơi làm việc; Khen thưởng người lao động chấp hành tốt và kỷ luật người lao động vi phạm trong việc thực hiện an toàn, vệ sinh lao động;",
+        "bold": false
+      },
+      {
+        "text": "Khiếu nại, tố cáo hoặc khởi kiện theo quy định của pháp luật;",
+        "bold": false
+      },
+      {
+        "text": "Huy động người lao động tham gia ứng cứu khẩn cấp, khắc phục sự cố, tai nạn lao động.",
+        "bold": false
+      },
+      {
+        "text": "Cả a, b, c, đều đúng.",
+        "bold": true
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": 13,
+    "sec_num": 13,
+    "section": "I. KIẾN THỨC VỀ ATVSLĐ - PCCN",
+    "question": "Bình bọt AB không được dùng để chữa đám cháy loại gì?",
+    "options": [
+      {
+        "text": "Cháy xăng dầu b. Cháy cồn, rượu",
+        "bold": false
+      },
+      {
+        "text": "Cháy cao su d. Cả 3 câu trả lời trên đều sai",
+        "bold": true
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": 14,
+    "sec_num": 14,
+    "section": "I. KIẾN THỨC VỀ ATVSLĐ - PCCN",
+    "question": "Tác hại của tiếng ồn đối với người lao động trong sản xuất là?",
+    "options": [
+      {
+        "text": "Làm giảm sự tập trung, chú ý khi làm việc; làm cho cơ thể nhanh mệt mỏi, giảm năng suất lao động, dễ gây tai nạn lao động, ...",
+        "bold": true
+      },
+      {
+        "text": "Tăng nguy cơ mắc các bệnh mãn tính như về xương khớp, hô hấp và tiêu hoá.",
+        "bold": false
+      },
+      {
+        "text": "Gây nhiễm độc, làm giảm khả năng miễn dịch, gây ung thư và một số bệnh mãn tính khác.",
+        "bold": false
+      },
+      {
+        "text": "Tất cả các tác hại trên.",
+        "bold": false
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": 15,
+    "sec_num": 15,
+    "section": "I. KIẾN THỨC VỀ ATVSLĐ - PCCN",
+    "question": "Người lao động phải được trang bị phương tiện bảo vệ cá nhân khi nào?",
+    "options": [
+      {
+        "text": "Tiếp xúc với yếu tố vật lý xấu: Nhiệt độ, áp suất, tiếng ồn, ánh sáng, bức xạ, phóng xạ,... không đảm bảo tiêu chuẩn vệ sinh cho phép; tiếp xúc với hơi khí độc, bụi độc, các sản phẩm có chì, thủy ngân, mang gan, bazơ, axit, xăng, dầu mỡ hoặc hóa chất …;",
+        "bold": false
+      },
+      {
+        "text": "Tiếp xúc với yếu tố sinh học độc hại, môi trường lao động xấu: Virut, vi khuẩn độc hại, côn trùng có hại; phân, nước, rác, các yếu tố sinh học độc hại khác.",
+        "bold": false
+      },
+      {
+        "text": "Làm việc với máy thiết bị, công cụ lao động, làm việc ở vị trí mà tư thế lao động nguy hiểm; làm việc trên cao; làm việc trong hầm lò, nơi thiếu dưỡng khí; làm việc trên sông nước, …",
+        "bold": false
+      },
+      {
+        "text": "Cả a, b và c",
+        "bold": true
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": 16,
+    "sec_num": 16,
+    "section": "I. KIẾN THỨC VỀ ATVSLĐ - PCCN",
+    "question": "Người sử dụng lao động khi thực hiện trang cấp phương tiện bảo vệ cá nhân phải bảo đảm nguyên tắc nào sau đây?",
+    "options": [
+      {
+        "text": "Đúng đối tượng, đúng chủng loại",
+        "bold": false
+      },
+      {
+        "text": "Tiết kiệm tối đa chi phí cho doanh nghiệp",
+        "bold": false
+      },
+      {
+        "text": "Đủ số lượng và Bảo đảm chất lượng",
+        "bold": false
+      },
+      {
+        "text": "Câu a và c đều đúng.",
+        "bold": true
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": 17,
+    "sec_num": 17,
+    "section": "I. KIẾN THỨC VỀ ATVSLĐ - PCCN",
+    "question": "Việc bồi dưỡng bằng hiện vật phải theo nguyên tắc nào sau đây?",
+    "options": [
+      {
+        "text": "Trong ca làm việc, bảo đảm thuận tiện, an toàn, vệ sinh thực phẩm.",
+        "bold": false
+      },
+      {
+        "text": "Giúp tăng cường sức đề kháng và thải độc của cơ thể.",
+        "bold": false
+      },
+      {
+        "text": "Tùy điều kiện của từng doanh nghiệp",
+        "bold": false
+      },
+      {
+        "text": "Câu a, b đều đúng",
+        "bold": true
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": 18,
+    "sec_num": 18,
+    "section": "I. KIẾN THỨC VỀ ATVSLĐ - PCCN",
+    "question": "Đoàn điều tra tai nạn lao động cấp cơ sở phải đảm bảo thành phần nào sau đây?",
+    "options": [
+      {
+        "text": "Người sử dụng lao động và Ban chấp hành công đoàn cơ sở",
+        "bold": false
+      },
+      {
+        "text": "Người sử dụng lao động, Người làm công tác an toàn lao động, và người làm công tác y tế",
+        "bold": false
+      },
+      {
+        "text": "Ban chấp hành công đoàn cơ sở, Người làm công tác an toàn lao động, và người làm công tác y tế",
+        "bold": false
+      },
+      {
+        "text": "Người sử dụng lao động, đại diện Ban chấp hành công đoàn cơ sở, Người làm công tác an toàn lao động và người làm công tác y tế.",
+        "bold": true
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": 19,
+    "sec_num": 19,
+    "section": "I. KIẾN THỨC VỀ ATVSLĐ - PCCN",
+    "question": "Trong các nguyên tắc bảo đảm An toàn, vệ sinh lao động có nguyên tắc?",
+    "options": [
+      {
+        "text": "Bảo đảm quyền của NLĐ được làm việc trong điều kiện an toàn, vệ sinh lao động",
+        "bold": false
+      },
+      {
+        "text": "Tuân thủ đầy đủ các biện pháp an toàn, an toàn, vệ sinh lao động trong quá trình lao động",
+        "bold": false
+      },
+      {
+        "text": "Câu a, b đều đúng",
+        "bold": true
+      },
+      {
+        "text": "Câu a, b đều sai",
+        "bold": false
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": 20,
+    "sec_num": 20,
+    "section": "I. KIẾN THỨC VỀ ATVSLĐ - PCCN",
+    "question": "Trong công tác an toàn vệ sinh lao động, tổ chức công đoàn có quyền và trách nhiệm như thế nào?",
+    "options": [
+      {
+        "text": "Phối hợp với cơ quan quản lý nhà nước tổ chức phong trào quần chúng làm công tác an toàn, vệ sinh lao động.",
+        "bold": false
+      },
+      {
+        "text": "Tổ chức và hướng dẫn hoạt động của mạng lưới an toàn, vệ sinh viên.",
+        "bold": false
+      },
+      {
+        "text": "Câu a và b đều đúng.",
+        "bold": true
+      },
+      {
+        "text": "Xây dựng và ban hành nội quy, quy trình làm việc an toàn cho người lao động.",
+        "bold": false
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": 21,
+    "sec_num": 21,
+    "section": "I. KIẾN THỨC VỀ ATVSLĐ - PCCN",
+    "question": "An toàn, vệ sinh viên hoạt động dưới sự quản lý và hướng dẫn của ai?",
+    "options": [
+      {
+        "text": "Người sử dụng lao động",
+        "bold": false
+      },
+      {
+        "text": "Ban chấp hành công đoàn cơ sở",
+        "bold": true
+      },
+      {
+        "text": "Cán bộ ATVSLĐ tại đơn vị",
+        "bold": false
+      },
+      {
+        "text": "Cả a,b,c đều sai.",
+        "bold": false
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": 22,
+    "sec_num": 22,
+    "section": "I. KIẾN THỨC VỀ ATVSLĐ - PCCN",
+    "question": "Theo quy định, việc quan trắc môi trường lao động để đánh giá yếu tố có hại đối với sức khỏe người lao động phải được thực hiện như thế nào?",
+    "options": [
+      {
+        "text": "Khi có yêu cầu của cơ quan chức năng.",
+        "bold": false
+      },
+      {
+        "text": "Khi Công đoàn cơ sở có kiến nghị.",
+        "bold": false
+      },
+      {
+        "text": "Ít nhất một lần trong một năm.",
+        "bold": false
+      },
+      {
+        "text": "Cả a, b, c đều đúng.",
+        "bold": true
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": 23,
+    "sec_num": 23,
+    "section": "I. KIẾN THỨC VỀ ATVSLĐ - PCCN",
+    "question": "Để phòng chống tiếng ồn tại nơi làm việc ta phải?",
+    "options": [
+      {
+        "text": "Thay đổi thiết bị công nghệ và sử dụng các biện pháp kỹ thuật giảm ồn",
+        "bold": false
+      },
+      {
+        "text": "Dùng phương tiện bảo vệ cá nhân chống ồn",
+        "bold": false
+      },
+      {
+        "text": "Dùng biện pháp hành chính và y tế",
+        "bold": false
+      },
+      {
+        "text": "Cả ba biện pháp trên",
+        "bold": true
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": 24,
+    "sec_num": 24,
+    "section": "I. KIẾN THỨC VỀ ATVSLĐ - PCCN",
+    "question": "Quyết định thành lập và Quy chế hoạt động của mạng lưới An toàn, vệ sinh lao động do ai ban hành?",
+    "options": [
+      {
+        "text": "Ban chấp hành công đoàn cơ sở:",
+        "bold": false
+      },
+      {
+        "text": "Ban chấp hành công đoàn cơ sở thống nhất với NSDLĐ;",
+        "bold": false
+      },
+      {
+        "text": "Người sử dụng lao động thống nhất ý kiến với Ban chấp hành CĐCS",
+        "bold": false
+      },
+      {
+        "text": "Người sử dụng lao động thống nhất ý kiến với Ban chấp hành CĐCS nếu cơ sở SXKD đã thành lập Ban chấp hành CĐCS",
+        "bold": true
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": 25,
+    "sec_num": 25,
+    "section": "I. KIẾN THỨC VỀ ATVSLĐ - PCCN",
+    "question": "Khi cấp cứu người bị say nắng, say nóng; biện pháp đầu tiên cần phải thực hiện là?",
+    "options": [
+      {
+        "text": "Chườm băng nước mát để nhiệt độ giảm từ từ",
+        "bold": false
+      },
+      {
+        "text": "Đưa nạn nhân vào chỗ râm mát hoặc ra khỏi môi trường nóng.",
+        "bold": true
+      },
+      {
+        "text": "Nới lỏng quần áo hoặc cởi hết quần áo ngoài.",
+        "bold": false
+      },
+      {
+        "text": "Quạt cho thoáng mát",
+        "bold": false
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": 26,
+    "sec_num": 26,
+    "section": "I. KIẾN THỨC VỀ ATVSLĐ - PCCN",
+    "question": "Định kỳ kiểm tra bình chữa cháy CO2 là mấy tháng 1 lần?",
+    "options": [
+      {
+        "text": "3 tháng b. 6 tháng",
+        "bold": true
+      },
+      {
+        "text": "9 tháng d. 12 tháng",
+        "bold": false
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": 27,
+    "sec_num": 27,
+    "section": "I. KIẾN THỨC VỀ ATVSLĐ - PCCN",
+    "question": "Đối tượng áp dụng thực hiện Luật an toàn, vệ sinh lao động là?",
+    "options": [
+      {
+        "text": "Người lao động làm việc theo hợp đồng lao động; người thử việc; người học nghề, tập nghề để làm việc cho người sử dụng lao động; Cán bộ, công chức, viên chức, người thuộc lực lượng vũ trang nhân dân.",
+        "bold": false
+      },
+      {
+        "text": "Người lao động làm việc không theo hợp đồng lao động; Người lao động Việt Nam đi làm việc tại nước ngoài theo hợp đồng; người lao động nước ngoài làm việc tại Việt Nam.",
+        "bold": false
+      },
+      {
+        "text": "Người sử dụng lao động; Cơ quan, tổ chức và cá nhân khác có liên quan đến công tác an toàn, vệ sinh lao động.",
+        "bold": false
+      },
+      {
+        "text": "Cả a, b, c đều đúng.",
+        "bold": true
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": 28,
+    "sec_num": 28,
+    "section": "I. KIẾN THỨC VỀ ATVSLĐ - PCCN",
+    "question": "Phương pháp hoạt động ATVSV là?",
+    "options": [
+      {
+        "text": "Hàng ngày bám sát vị trí sản xuất, để nắm chắc diễn biến tình hình AT-VSLĐ của máy móc thiết bị và việc chấp hành của các tổ viên trong tổ. Phát hiện và xử lý kịp thời các vi phạm về ATVSLĐ trong phạm vi được giao.",
+        "bold": false
+      },
+      {
+        "text": "Kết hợp biện pháp vận động, thuyết phục với sử dụng các quyền hạn được giao để đấu tranh, ngăn chặn kịp thời các hiện tượng làm bừa, làm ẩu.",
+        "bold": false
+      },
+      {
+        "text": "Gương mẫu chấp hành các yêu cầu về ATVSLĐ để làm gương cho tập thể.",
+        "bold": false
+      },
+      {
+        "text": "cả a, b và c",
+        "bold": true
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": 29,
+    "sec_num": 29,
+    "section": "I. KIẾN THỨC VỀ ATVSLĐ - PCCN",
+    "question": "Người sử dụng lao động phải thống kê, báo cáo tai nạn lao động, sự cố kỹ thuật gây mất an toàn, vệ sinh lao động nghiêm trọng tại cơ sở của mình đến cơ quan quản lý nhà nước về lao động cấp tỉnh định kỳ như thế nào?",
+    "options": [
+      {
+        "text": "Hàng tháng",
+        "bold": false
+      },
+      {
+        "text": "03 tháng",
+        "bold": false
+      },
+      {
+        "text": "Hằng năm",
+        "bold": false
+      },
+      {
+        "text": "06 tháng và hàng năm",
+        "bold": true
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": 30,
+    "sec_num": 30,
+    "section": "I. KIẾN THỨC VỀ ATVSLĐ - PCCN",
+    "question": "Những đối tượng làm việc có yêu cầu nghiêm ngặt về ATLĐ nào dưới đây bắt buộc phải được huấn luyện ATVSLĐ trước khi giao việc?",
+    "options": [
+      {
+        "text": "Tất cả những người lao động đang làm việc.",
+        "bold": false
+      },
+      {
+        "text": "Người mới tuyển dụng, người học nghề, tập nghề.",
+        "bold": false
+      },
+      {
+        "text": "Người mới vào thử việc, người lao động hành nghề tự do.",
+        "bold": false
+      },
+      {
+        "text": "Cả a, b và c đều đúng.",
+        "bold": true
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": 31,
+    "sec_num": 1,
+    "section": "II. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN ĐIỆN",
+    "question": "Phạm vi áp dụng của quy trình QT-20 lần 3 bao gồm các loại hạ tầng nào?",
+    "options": [
+      {
+        "text": "Đường dây trung thế 1 pha 12,7kV và trung thế 3 pha 22kV.",
+        "bold": false
+      },
+      {
+        "text": "Các loại đường dây hạ thế hổn hợp, độc lập và đường dây nhánh khách hàng.",
+        "bold": false
+      },
+      {
+        "text": "Trạm biến áp sinh hoạt, trạm chuyên dùng nhà máy nước và đường dây hạ áp ngầm/nổi hệ thống cấp nước.",
+        "bold": false
+      },
+      {
+        "text": "Tất cả các phương án trên.",
+        "bold": true
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": 32,
+    "sec_num": 2,
+    "section": "II. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN ĐIỆN",
+    "question": "Điện áp bước là:",
+    "options": [
+      {
+        "text": "Điện áp giữa 2 chân Người",
+        "bold": false
+      },
+      {
+        "text": "Khi có dây điện chạm đất, có dòng điện đi vào đất sẽ có điện áp bước",
+        "bold": false
+      },
+      {
+        "text": "Điện áp giữa 2 chân người trong vùng có dòng điện đi vào đất",
+        "bold": true
+      },
+      {
+        "text": "Câu a, b đúng.",
+        "bold": false
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": 33,
+    "sec_num": 3,
+    "section": "II. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN ĐIỆN",
+    "question": "Trong cùng 1 điều kiện tiếp xúc:",
+    "options": [
+      {
+        "text": "Dòng DC nguy hiểm hơn dòng AC, dòng càng lớn thì mức độ nguy hiểm càng cao.",
+        "bold": false
+      },
+      {
+        "text": "Dòng AC nguy hiểm hơn dòng DC, dòng càng bé thì mức độ nguy hiểm càng cao.",
+        "bold": false
+      },
+      {
+        "text": "Dòng AC nguy hiểm hơn dòng DC, dòng càng lớn thì mức độ nguy hiểm càng cao.",
+        "bold": true
+      },
+      {
+        "text": "Dòng AC nguy hiểm như dòng DC, dòng càng lớn thì mức độ nguy hiểm càng cao.",
+        "bold": false
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": 34,
+    "sec_num": 4,
+    "section": "II. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN ĐIỆN",
+    "question": "Quy trình nghiêm cấm công nhân thực hiện hành vi nào sau đây khi đang đứng làm việc trên thang di động ngoài hiện trường?",
+    "options": [
+      {
+        "text": "Đứng ở hai bậc trên cùng của thang, nhoài người ra xa quá ranh giới thân thang, hoặc hai người cùng trèo trên một cây thang đơn.",
+        "bold": true
+      },
+      {
+        "text": "Mang theo túi đựng dụng cụ nhỏ đeo ngang thắt lưng.",
+        "bold": false
+      },
+      {
+        "text": "Thắt dây an toàn quàng qua thân cột điện trước khi buông tay thao tác.",
+        "bold": false
+      },
+      {
+        "text": "Đội mũ bảo hộ có cài quai đúng quy cách.",
+        "bold": false
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": 35,
+    "sec_num": 5,
+    "section": "II. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN ĐIỆN",
+    "question": "Dụng cụ, thiết bị nào sau đây dùng để thử điện:",
+    "options": [
+      {
+        "text": "Đồng hồ đo điện",
+        "bold": false
+      },
+      {
+        "text": "Tín hiệu relay",
+        "bold": false
+      },
+      {
+        "text": "Bút thử điện",
+        "bold": true
+      },
+      {
+        "text": "Cả 3 câu trên đúng",
+        "bold": false
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": 36,
+    "sec_num": 6,
+    "section": "II. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN ĐIỆN",
+    "question": "Khoảng cách an toàn điện (không có rào chắn) khi làm việc gần vật mang điện là:",
+    "options": [
+      {
+        "text": "0,3m đối với hạ áp; 0,6m đối với 15kV",
+        "bold": false
+      },
+      {
+        "text": "0,3m đối với hạ áp; 1m đối với 22kV",
+        "bold": true
+      },
+      {
+        "text": "1,5m đối với 22kV; 2,5 m đối với 110 kV",
+        "bold": false
+      },
+      {
+        "text": "Cả 3 câu trên đúng",
+        "bold": false
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": 37,
+    "sec_num": 7,
+    "section": "II. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN ĐIỆN",
+    "question": "Chiều cao phần trụ Potelet tính từ mái nhà đến đầu trụ phải đảm bảo khoảng cách là bao nhiêu mét?",
+    "options": [
+      {
+        "text": "Từ 0,5 mét đến 1,0 mét",
+        "bold": false
+      },
+      {
+        "text": "Từ 1,0 mét đến 1,2 mét",
+        "bold": false
+      },
+      {
+        "text": "Từ 1,2 mét đến 1,5 mét",
+        "bold": true
+      },
+      {
+        "text": "Trên 2,0 mét để đảm bảo an toàn",
+        "bold": false
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": 38,
+    "sec_num": 8,
+    "section": "II. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN ĐIỆN",
+    "question": "Công việc: 1- Cắt điện. 2- Tiếp địa. 3– Thử điện. 4- Xả điện. Tiến hành theo trình tự:",
+    "options": [
+      {
+        "text": "1-2-3-4.",
+        "bold": false
+      },
+      {
+        "text": "1-3-4-2.",
+        "bold": true
+      },
+      {
+        "text": "1-4-2-3.",
+        "bold": false
+      },
+      {
+        "text": "3-1-4-2.",
+        "bold": false
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": 39,
+    "sec_num": 9,
+    "section": "II. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN ĐIỆN",
+    "question": "Điện trở nối đất của nguồn 220V/380V, trung tính nối đất trực tiếp không được vượt quá:",
+    "options": [
+      {
+        "text": "1 Ω.",
+        "bold": false
+      },
+      {
+        "text": "2 Ω",
+        "bold": false
+      },
+      {
+        "text": "4 Ω",
+        "bold": true
+      },
+      {
+        "text": "10 Ω",
+        "bold": false
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": 40,
+    "sec_num": 10,
+    "section": "II. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN ĐIỆN",
+    "question": "Khi lưới điện hạ thế 3 pha 4 dây gặp sự cố đứt dây trung tính tổng (dây N), hiện tượng nguy hiểm nào sau đây sẽ xảy ra trên lưới điện phụ tải của khách hàng?",
+    "options": [
+      {
+        "text": "Toàn bộ thiết bị điện trong nhà khách hàng sẽ tự động tắt và không có điện.",
+        "bold": false
+      },
+      {
+        "text": "Xảy ra hiện tượng lệch điểm trung tính, làm điện áp các pha biến động bất thường (pha tải ít điện áp tăng vọt lên gần 380V), gây cháy nổ hàng loạt thiết bị của dân và rò điện ra vỏ thiết bị.",
+        "bold": true
+      },
+      {
+        "text": "Dòng điện trên 3 dây pha sẽ tự động giảm về 0A.",
+        "bold": false
+      },
+      {
+        "text": "Chỉ có các thiết bị công nghiệp 3 pha mới bị ảnh hưởng.",
+        "bold": false
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": 41,
+    "sec_num": 11,
+    "section": "II. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN ĐIỆN",
+    "question": "Trường hợp Người lãnh đạo công việc không đi khảo sát hiện trường được thì họ có được đảm nhiệm chức danh người lãnh đạo công việc không hay không?",
+    "options": [
+      {
+        "text": "Không được, vì không tham gia khảo sát hiện trường.",
+        "bold": false
+      },
+      {
+        "text": "Được nhưng họ phải tự mình đi khảo sát lại.",
+        "bold": false
+      },
+      {
+        "text": "Được nhưng phải biết rõ các yếu tố nguy hiểm, điều kiện an toàn khi tiến hành công việc.",
+        "bold": true
+      },
+      {
+        "text": "Không được, phải giao người đi khảo sát làm lãnh đao công việc.",
+        "bold": false
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": 42,
+    "sec_num": 12,
+    "section": "II. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN ĐIỆN",
+    "question": "Căn cứ QT-ATĐ quy định trách nhiệm Người giám sát an toàn điện là?",
+    "options": [
+      {
+        "text": "Nắm vững các quy định và nhưng yêu cầu về an toàn điện tại nơi làm việc để giám sát đơn vị công tác đảm bảo an toàn về điện.",
+        "bold": true
+      },
+      {
+        "text": "Người có kiến thức về an toàn điện, được huấn luyện, được đơn vị QLVH chỉ định và thực hiện việc giám sát an toàn điện cho đơn vị công tác.",
+        "bold": false
+      },
+      {
+        "text": "Phối hợp người chỉ huy trực tiếp thực hiện các biện pháp kỹ thuât, biện pháp an toàn để đảm bảo an toàn cho đơn vị công tác.",
+        "bold": false
+      },
+      {
+        "text": "Phối hợp người lãnh đạo công việc thực hiện các biện pháp kỹ thuật, biện pháp an toàn để đảm bảo an toàn cho đơn vị công tác.",
+        "bold": false
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": 43,
+    "sec_num": 13,
+    "section": "II. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN ĐIỆN",
+    "question": "Theo Quy trình an toàn điện qui định Phiếu công tác có các chức danh nào sau đây?",
+    "options": [
+      {
+        "text": "Người cho phép, Người giám sát an toàn điện, Người chỉ huy trực tiếp.",
+        "bold": false
+      },
+      {
+        "text": "Người cấp PCT, Người cho phép, Người giám sát an toàn điện, Người lãnh đạo công việc, Người chỉ huy trực tiếp, Nhân viên đơn vị công tác",
+        "bold": true
+      },
+      {
+        "text": "Người cấp PCT, Người giám sát an toàn điện, Người lãnh đạo công việc; Người chỉ huy trực tiếp.",
+        "bold": false
+      },
+      {
+        "text": "Người cấp PCT, Người giám sát an toàn điện; Người lãnh đạo công việc, Người chỉ huy trực tiếp.",
+        "bold": false
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": 44,
+    "sec_num": 14,
+    "section": "II. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN ĐIỆN",
+    "question": "Khi người làm việc trên cao, nếu thấy biện pháp an toàn chưa đủ, đúng với quy trình an toàn thì:",
+    "options": [
+      {
+        "text": "Có quyền báo cáo với người ra lệnh. Nếu chưa được giải quyết đầy đủ thì có quyền không thực hiện và báo cáo với cấp trên.",
+        "bold": true
+      },
+      {
+        "text": "Có quyền không thực hiện và báo cáo với cấp trên.",
+        "bold": false
+      },
+      {
+        "text": "Báo cáo với Đội trưởng và CBAT để được giải quyết.",
+        "bold": false
+      },
+      {
+        "text": "Nếu không giải quyết đầy đủ thì có quyền không thực hiện và báo cáo với cấp trên.",
+        "bold": false
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": 45,
+    "sec_num": 7,
+    "section": "II. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN ĐIỆN",
+    "question": "Khi thực hiện biện pháp lắp đặt dây nối đất ngắn mạch lưu động (tiếp địa), quy trình quy định trình tự thao tác như thế nào là ĐÚNG kỹ thuật?",
+    "options": [
+      {
+        "text": "Đấu một đầu dây tiếp địa vào hệ thống nối đất (đất) trước, sau đó mới lắp đầu còn lại vào dây dẫn điện.",
+        "bold": true
+      },
+      {
+        "text": "Lắp vào dây dẫn điện trước, sau đó mới đấu đầu dây còn lại xuống đất.",
+        "bold": false
+      },
+      {
+        "text": "Thao tác đồng thời cả đầu đất và đầu dây dẫn cùng một lúc.",
+        "bold": false
+      },
+      {
+        "text": "Thao tác đầu nào trước cũng được, không bắt buộc thứ tự.",
+        "bold": false
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": 46,
+    "sec_num": 16,
+    "section": "II. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN ĐIỆN",
+    "question": "Khi thực hiện việc chặt cây gần đường dây thì Người chỉ huy trực tiếp phải thế nào?",
+    "options": [
+      {
+        "text": "Chỉ cụ thể cho nhân viên trong đơn vị công tác cây nào chặt và cây nào không được chặt.",
+        "bold": false
+      },
+      {
+        "text": "Chặt tất cả các cây gần đường dây khi đảm bảo an toàn.",
+        "bold": false
+      },
+      {
+        "text": "Thông báo cho nhân viên đơn vị công tác biết về nguy hiểm khi trèo lên cây, khi cây và dây thừng tiếp xúc hoặc vi phạm khoảng cách an toàn với dây dẫn",
+        "bold": true
+      },
+      {
+        "text": "Giám sát chặt chẻ từng vị trí thực hiện chặt cây gần đường dây.",
+        "bold": false
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": 47,
+    "sec_num": 17,
+    "section": "II. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN ĐIỆN",
+    "question": "Căn cứ QT-ATĐ, trong phần phụ lục hướng dẫn cứu chữa người bị điện giật, nếu bị tai nạn điện giật mà được cấp cứu kịp thời và đúng phương pháp thì tỉ lệ nạn nhân được cứu sống nạn nhân theo thống kê:",
+    "options": [
+      {
+        "text": "Tỉ lệ cứu sống phút đến thứ 5 còn 50%.",
+        "bold": false
+      },
+      {
+        "text": "Tỉ lệ cứu sống đến phút thứ 2 là 98%",
+        "bold": false
+      },
+      {
+        "text": "Tỉ lệ cứu sống trong giây phút đầu là 98% còn đến phút thứ 5 cơ hội cứu sống còn 25%.",
+        "bold": true
+      },
+      {
+        "text": "Phút thứ 2 là 70% còn đến phút thứ 5 cơ hội cứu sống còn 30%.",
+        "bold": false
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": 48,
+    "sec_num": 18,
+    "section": "II. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN ĐIỆN",
+    "question": "Trong khi tiến hành công tác đối với trường hợp trèo cột vượt qua chướng ngại vật thì phải:",
+    "options": [
+      {
+        "text": "Người giám sát phải luôn luôn theo dõi, nhắc nhở người thực hiện công việc.",
+        "bold": false
+      },
+      {
+        "text": "Phải sử dụng dây an toàn phụ để vượt qua chướng ngai vật.",
+        "bold": true
+      },
+      {
+        "text": "Tuân theo sự chỉ huy của người chỉ huy trực tiếp.",
+        "bold": false
+      },
+      {
+        "text": "Chỉ cần mang dây an toàn chính.",
+        "bold": false
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": 49,
+    "sec_num": 15,
+    "section": "II. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN ĐIỆN",
+    "question": "Trường hợp đường dây nhánh của khách hàng băng qua mái nhà của hộ khác, khoảng cách an toàn thẳng đứng tối thiểu từ dây dẫn đến mái nhà phải đảm bảo là bao nhiêu mét?",
+    "options": [
+      {
+        "text": "Tối thiểu 0,5 mét",
+        "bold": false
+      },
+      {
+        "text": "Tối thiểu 1,0 mét",
+        "bold": false
+      },
+      {
+        "text": "Tối thiểu 1,5 mét",
+        "bold": true
+      },
+      {
+        "text": "Tối thiểu 2,5 mét",
+        "bold": false
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": 50,
+    "sec_num": 20,
+    "section": "II. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN ĐIỆN",
+    "question": "Người cấp phiếu công tác là ai?",
+    "options": [
+      {
+        "text": "Người của đơn vị trực tiếp vận hành hoặc người cùa đơn vị công tác tùy theo thỏa thuận.",
+        "bold": false
+      },
+      {
+        "text": "Người của đơn vị công tác được giao nhiệm vụ cấp PCT theo quy định của Quy trình này.",
+        "bold": false
+      },
+      {
+        "text": "Người của đơn vị trực tiếp quản lý vận hành các thiết bị điện, đường dây điện được giao nhiệm vụ cấp phiếu công tác theo quy định của Quy trình này.",
+        "bold": true
+      },
+      {
+        "text": "Tất cả điều a), b), c) đều sai.",
+        "bold": false
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": 51,
+    "sec_num": 21,
+    "section": "II. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN ĐIỆN",
+    "question": "Đơn vị công tác là gì?",
+    "options": [
+      {
+        "text": "Đơn vị thực hiện công việc sửa chữa, thí nghiệm, xây lắp... Mỗi đơn vị công tác phải có ít nhất 02 người, trong đó phải có 01 người chỉ huy trực tiếp chịu trách nhiệm chung.",
+        "bold": true
+      },
+      {
+        "text": "Đơn vị quản lý hoặc sửa chữa, thường là một tổ hoặc một nhóm công nhân, đôi khi chỉ có 2 người.",
+        "bold": false
+      },
+      {
+        "text": "Đơn vị làm công việc sửa chữa, thí nghiệm, xây lắp... Mỗi đơn vị công tác phải có ít nhất 02 người, trong đó phải có 01 Người chỉ huy trực tiếp chịu trách nhiệm chung và 01 người giám sát an toàn điện.",
+        "bold": false
+      },
+      {
+        "text": "Tất cả điều a), b), c) đều sai.",
+        "bold": false
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": 52,
+    "sec_num": 22,
+    "section": "II. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN ĐIỆN",
+    "question": "Nơi làm việc có cắt điện thì vị trí nối đất phải thế nào?",
+    "options": [
+      {
+        "text": "Phải nối đất ngay sau khi kiểm tra không còn điện; nối đất ở tất cả các pha của thiết bị về phía có khả năng dẫn điện đến.",
+        "bold": false
+      },
+      {
+        "text": "Đảm bảo khoảng cách an toàn đối với phần còn mang điện",
+        "bold": false
+      },
+      {
+        "text": "Đảm bảo cho toàn bộ đơn vị công tác nằm trọn trong vùng bảo vệ của nối đất.",
+        "bold": false
+      },
+      {
+        "text": "Thực hiện tất cả điều a), b), c) đều trên.",
+        "bold": true
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": 53,
+    "sec_num": 23,
+    "section": "II. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN ĐIỆN",
+    "question": "Khi phát hiện có người bị điện giật, trong bất kỳ trường hợp nào người phát hiện phải làm gì?",
+    "options": [
+      {
+        "text": "Tìm biện pháp nhanh nhất để tách nạn nhân ra khỏi mạch điện và cứu chữa người bị nạn.",
+        "bold": true
+      },
+      {
+        "text": "Lao vào cắt điện bằng mọi cách và cứu chữa người nạn nhân.",
+        "bold": false
+      },
+      {
+        "text": "Tìm người chạy đi cắt điện, báo cáo Đơn vị QLVH.",
+        "bold": false
+      },
+      {
+        "text": "Dùng bất cứ hình thức nào để tách nạn nhân ra khỏi mạch điện.",
+        "bold": false
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": 54,
+    "sec_num": 24,
+    "section": "II. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN ĐIỆN",
+    "question": "Khi trèo lên cột điện để ghi chỉ số điện kế phải tuân thủ các quy định nào sau đây?",
+    "options": [
+      {
+        "text": "Dùng bút thử điện hạ áp để kiểm tra xà, các cấu kiện bằng kim loại trên cột, dây thông tin, vỏ hộp kim loại của điện kế xem có điện hay không.",
+        "bold": false
+      },
+      {
+        "text": "Tránh va chạm vào những dây điện, các đầu hỡ của dây thông tin xung quanh hộp kim loại (hòm) đặt điện kế.",
+        "bold": false
+      },
+      {
+        "text": "Tất cả điều a), b) đều đúng.",
+        "bold": true
+      },
+      {
+        "text": "Tất cả điều a), b) đều sai.",
+        "bold": false
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": 55,
+    "sec_num": 25,
+    "section": "II. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN ĐIỆN",
+    "question": "Phương pháp tách nạn nhân ra khỏi mạch điện đối với trường hợp không cắt được mạch điện đối với mạch điện hạ áp:",
+    "options": [
+      {
+        "text": "Đứng trên bàn, ghế hoặc tấm gổ khô, đi dép hoặc ủng cao su, đeo găng tay cao su dùng tay kéo nạn nhân tách khỏi mạch điện.",
+        "bold": false
+      },
+      {
+        "text": "Nếu không có có các phương tiện như câu a) thì dùng tay nắm áo, quần khô của nạn nhân để kép ra hoặc dùng gậy gỗ, tre gỗ gạt dây điện hoặc đẩy nạn nhân để tách ra.",
+        "bold": false
+      },
+      {
+        "text": "Dùng kềm cách điện, búa, dao cán bằng gỗ khô để cắt đứt dây điện đang gây tai nạn.",
+        "bold": false
+      },
+      {
+        "text": "Tất cả các biện pháp trên đều đúng.",
+        "bold": true
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": 56,
+    "sec_num": 25,
+    "section": "II. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN ĐIỆN",
+    "question": "Khi sử dụng trụ bê tông ly tâm (BTLT) loại 8,5 mét làm trụ đỡ dây nhánh khách hàng, độ chôn sâu tiêu chuẩn dưới mặt đất yêu cầu phải đạt bao nhiêu mét?",
+    "options": [
+      {
+        "text": "1,0 mét",
+        "bold": false
+      },
+      {
+        "text": "1,3 mét",
+        "bold": false
+      },
+      {
+        "text": "1,5 mét",
+        "bold": true
+      },
+      {
+        "text": "1,8 mét",
+        "bold": false
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": 57,
+    "sec_num": 27,
+    "section": "II. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN ĐIỆN",
+    "question": "Trong biện pháp kỹ thuật phần những biện pháp an toàn khi làm việc trên cao cấm không được thực hiện các việc sau:",
+    "options": [
+      {
+        "text": "Không được phép đi dép không có quai hậu, giầy đinh, guốc,…không được thắc dây ant oàn vào những nơi di động, dễ gãy, dễ tuột.",
+        "bold": false
+      },
+      {
+        "text": "Không được mang, vác dụng cụ, vật liệu năng lên cao cùng với người, cấm đúc các dụng cụ vào túi quần, áo đề phòng rơi xuống đầu người khác, cấm đưa dụng cụ, vật liệu lên cao hoặc từ trên cao xuống bằng cách tung ném.",
+        "bold": false
+      },
+      {
+        "text": "Cấm hút thuốc khi làm việc trên cao, cấm tuyệt đối trèo cột bằng đường dây néo cột.",
+        "bold": false
+      },
+      {
+        "text": "cả 3 câu a, b, c đều đúng",
+        "bold": true
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": 58,
+    "sec_num": 28,
+    "section": "II. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN ĐIỆN",
+    "question": "Trong biện pháp kỹ thuật phần những biện pháp an toàn khi làm việc trên cao, bắt buột phải thực hiện các việc sau:",
+    "options": [
+      {
+        "text": "Làm việc trên cao từ 3 m trở lên hải đeo dây an toàn, dù thời gian làm việc rất ngắn, phải thắt dây an toàn vào những vật cố định, chắc chắn.",
+        "bold": false
+      },
+      {
+        "text": "Chỉ được phép trèo lên cột để lắp xà, sứ sau khi cột đã dựng xong và đạt 24 giờ, dụng cụ làm việc trên cao phải để vào những chỗ chắc chắn hoặc làm móc để treo vào cột.",
+        "bold": false
+      },
+      {
+        "text": "Khi đưa các vật liệu, dụng cụ nặng lên cao hoặc từ trên cao xuống phải dung dây buộc để kéo lên hoặc hạ xuống từ từ qua buly, người đứng ở dưới phải đứng xa chân cột và giữ một đầu dây dưới.",
+        "bold": false
+      },
+      {
+        "text": "Cả 3 câu a, b, c đều đúng",
+        "bold": true
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": 59,
+    "sec_num": 29,
+    "section": "II. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN ĐIỆN",
+    "question": "Khi làm việc trên thang di động, để tránh trơn trợt, người công nhân thực hiện cần phải:",
+    "options": [
+      {
+        "text": "Trong mọi công tác trên thang di động đều phải có người giữ chân thang, trên nền đất phải khoét lỏm đất dưới chân thang, trên nền đá hoa, xi măng, gạch phải dung bao tải ướt hoặc tấm cao su để lót chân thang.",
+        "bold": true
+      },
+      {
+        "text": "Chân thang phải gắn các thanh nhọn bằng kim loại cứng để khi dựng thang, các thanh kim loại này ghim chặt vào nền đất hoặc nền xi măng.",
+        "bold": false
+      },
+      {
+        "text": "Có thể dung dây thừng tốt buột thang vào tường khi làm việc.",
+        "bold": false
+      },
+      {
+        "text": "Cả 3 câu a, b, c đều đúng.",
+        "bold": false
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": 60,
+    "sec_num": 30,
+    "section": "II. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN ĐIỆN",
+    "question": "Theo quy trình lắp đặt và quản lý công tơ điện (QT-CTY-36 lần 3), chiều dài dây nhánh khách hàng tính từ lưới điện hạ thế đối với khu vực nông thôn không vượt quá:",
+    "options": [
+      {
+        "text": "80m",
+        "bold": false
+      },
+      {
+        "text": "90m",
+        "bold": false
+      },
+      {
+        "text": "100m",
+        "bold": false
+      },
+      {
+        "text": "150m",
+        "bold": true
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": 61,
+    "sec_num": 31,
+    "section": "II. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN ĐIỆN",
+    "question": "Theo quy trình lắp đặt và quản lý công tơ điện (QT-CTY-36 lần 3), chiều dài dây nhánh khách hàng tính từ lưới điện hạ thế đối với khu vực trung tâm xã, phường không vượt quá:",
+    "options": [
+      {
+        "text": "80m",
+        "bold": false
+      },
+      {
+        "text": "90m",
+        "bold": false
+      },
+      {
+        "text": "100m",
+        "bold": true
+      },
+      {
+        "text": "150m",
+        "bold": false
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": 62,
+    "sec_num": 32,
+    "section": "II. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN ĐIỆN",
+    "question": "Theo quy trình xử lý sự cố và sửa chữa điện cho khách hàng (QT-CTY-13) khi khách hàng có yêu cầu sửa điện thì:",
+    "options": [
+      {
+        "text": "Phải trực tiếp đến tổ điện để báo rõ địa chỉ, số trụ điện.",
+        "bold": false
+      },
+      {
+        "text": "Báo bằng điện thoại.",
+        "bold": false
+      },
+      {
+        "text": "Gặp công nhân điện của Xí nghiệp đang đi công tác.",
+        "bold": false
+      },
+      {
+        "text": "Có thể báo bằng một trong 3 cách trên.",
+        "bold": true
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": 63,
+    "sec_num": 33,
+    "section": "II. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN ĐIỆN",
+    "question": "Tần suất kiểm tra định kỳ ban ngày đối với đường dây trung thế (tài sản Công ty) là bao lâu?",
+    "options": [
+      {
+        "text": "1 tháng / 1 lần.",
+        "bold": true
+      },
+      {
+        "text": "3 tháng / 1 lần.",
+        "bold": false
+      },
+      {
+        "text": "6 tháng / 1 lần.",
+        "bold": false
+      },
+      {
+        "text": "1 tuần / 1 lần.",
+        "bold": false
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": 64,
+    "sec_num": 34,
+    "section": "II. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN ĐIỆN",
+    "question": "Mục đích chính của việc kiểm tra định kỳ ban đêm (3 tháng/1 lần) đối với đường dây trung thế là gì?",
+    "options": [
+      {
+        "text": "Đo đạc độ võng chính xác của các khoảng cột vượt sông gao chéo.",
+        "bold": false
+      },
+      {
+        "text": "Kết hợp chặt tỉa cây xanh vi phạm hành lang an toàn vào ban đêm.",
+        "bold": false
+      },
+      {
+        "text": "Phát hiện những chỗ tiếp xúc xấu gây phát nóng đỏ, hiện tượng phóng điện sứ đứng/treo và âm thanh ánh sáng bất thường.",
+        "bold": true
+      },
+      {
+        "text": "Kiểm tra các mốc dấu báo hiệu cáp ngầm bị lấn chiếm.",
+        "bold": false
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": 65,
+    "sec_num": 35,
+    "section": "II. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN ĐIỆN",
+    "question": "Thời điểm thực hiện công tác kiểm tra Phòng chống lụt bão (PCLB) định kỳ hàng năm quy định vào thời gian nào?",
+    "options": [
+      {
+        "text": "Đầu tháng 3 hàng năm.",
+        "bold": false
+      },
+      {
+        "text": "Đầu tháng 5 hàng năm.",
+        "bold": true
+      },
+      {
+        "text": "Khi có thông báo bão khẩn cấp từ cơ quan khí tượng.",
+        "bold": false
+      },
+      {
+        "text": "Ngay sau khi nước lũ rút hoàn toàn khỏi khu vực lưới điện.",
+        "bold": false
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": 66,
+    "sec_num": 36,
+    "section": "II. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN ĐIỆN",
+    "question": "Theo quy trình quản lý vận hành, kiểm, tra sửa chữa, nâng cấp đường dây trung hạ áp và trạm biến áp (QT-CTY-20-lần 3), trong đó định nghĩa thuật ngữ về trạm biến áp bao gồm:",
+    "options": [
+      {
+        "text": "MBA, LA, FCO, bộ dây sorty, CB, tủ điện.",
+        "bold": false
+      },
+      {
+        "text": "MBA, LA, FCO, bộ dây sorty, CB, tủ điện, tiếp đất.",
+        "bold": true
+      },
+      {
+        "text": "MBA, LA, FCO, bộ dây sorty, CB, tủ điện, tiếp đất, dây trục hạ áp.",
+        "bold": false
+      },
+      {
+        "text": "MBA.",
+        "bold": false
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": 67,
+    "sec_num": 37,
+    "section": "II. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN ĐIỆN",
+    "question": "Khi kiểm tra đường dây nhánh khách hàng vượt mái nhà và đi dọc vách nhà, độ tĩnh không an toàn quy định tối thiểu lần lượt là bao nhiêu?",
+    "options": [
+      {
+        "text": "Vượt mái nhà > 1,0m; Dọc vách nhà >= 0,2m.",
+        "bold": false
+      },
+      {
+        "text": "Vượt mái nhà > 1,5m; Dọc vách nhà >= 0,3m.",
+        "bold": true
+      },
+      {
+        "text": "Vượt mái nhà > 2,0m; Dọc vách nhà >= 0,5m.",
+        "bold": false
+      },
+      {
+        "text": "Không có quy định cụ thể, tùy thuộc vào sự thỏa thuận với chủ nhà.",
+        "bold": false
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": 68,
+    "sec_num": 38,
+    "section": "II. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN ĐIỆN",
+    "question": "Đối với công nhân ghi chỉ số công tơ điện hàng tháng cần chú ý kiểm tra các trường hợp sau:",
+    "options": [
+      {
+        "text": "Trước khi vào nhà cần chú ý đến tình trạng dây nhánh khách hàng, xem có an toàn, chạm chập, đúng quy định không. Chú ý đến đầu trụ potelet xem có hiện tượng câu móc trước công tơ điện không.",
+        "bold": false
+      },
+      {
+        "text": "Vào nhà ghi điện kế cần chú đến tình trạng sử dụng điện sau điện kế xem có an toàn không, kiểm tra cáp điện kế có nguyên vẹn hay có hiện tượng mổ vỏ câu móc, vỏ điện kế có bị khoan lỗ, chạm vỏ, các chì chuẩn định còn nguyên vẹn không, hộp đấu dây…",
+        "bold": false
+      },
+      {
+        "text": "Sau khi ghi xong cần so sánh sơ bộ số kW tiêu thụ xem có phù hợp với các thiết bị sử dụng không.",
+        "bold": false
+      },
+      {
+        "text": "Bao gồm những câu trên.",
+        "bold": true
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": 69,
+    "sec_num": 39,
+    "section": "II. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN ĐIỆN",
+    "question": "Khi có nhiều tổ hoặc nhiều đơn vị cùng công tác trên một hệ thống đường dây, một trạm biến áp hay một công trường mà có người chỉ huy riêng biệt thì phiếu công tác được cấp:",
+    "options": [
+      {
+        "text": "Phải cấp riêng biệt cho từng đơn vị nhưng các biện pháp an toàn phải chung.",
+        "bold": false
+      },
+      {
+        "text": "Phải cấp chung cho các đơn vị 01 phiếu công tác và các biện pháp an toàn phải riêng biệt cho từng đơn vị.",
+        "bold": false
+      },
+      {
+        "text": "Phải cấp riêng biệt cho từng đơn vị và các biện pháp an toàn phải riêng biệt để không ảnh hưởng đến đơn vị khác khi rút khỏi hiện trường làm việc.",
+        "bold": true
+      },
+      {
+        "text": "Phải được cấp chung và các biện pháp an toàn phải chung, để thống nhất cách làm việc an toàn.",
+        "bold": false
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": 70,
+    "sec_num": 40,
+    "section": "II. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN ĐIỆN",
+    "question": "Trong biện pháp tổ chức phần những biện pháp an toàn khi làm việc trên cao, qui định:",
+    "options": [
+      {
+        "text": "Nếu có nhiều người có hành động vi phạm quy trình kỹ thuật an toàn thì người có trách nhiệm về an toàn có quyền cho ngừng công việc để nhắc nhở hoặc đình chỉ hẳn công việc đang tiến hành khi xét thấy có vấn đề ngiêm trọng, đe dọa tai nạn nhưng phải báo cáo ngay với cấp trên của mình.",
+        "bold": false
+      },
+      {
+        "text": "Khi có 2 người làm việc trở lên nhất thiết phải cử nhóm trưởng.",
+        "bold": false
+      },
+      {
+        "text": "Nghiêm cấm những người uống rượu, bia, ốm, đau, không đạt tiêu chuẩn sức khỏe làm việc trên cao.",
+        "bold": false
+      },
+      {
+        "text": "cả 3 câu a, b, c đều đúng.",
+        "bold": true
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": 71,
+    "sec_num": 1,
+    "section": "III. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN NƯỚC",
+    "question": "Anh chị hãy cho biết: Tại sao phải tổ chức vận hành thử máy bơm trước khi vận hành:",
+    "options": [
+      {
+        "text": "Kiểm tra để phát hiện những sai sót trong chế tạo, sửa chữa.",
+        "bold": false
+      },
+      {
+        "text": "Kiểm tra thông số kỹ thuật của máy bơm.",
+        "bold": false
+      },
+      {
+        "text": "Vận hành thử máy bơm nhằm mục đích phát hiện những sai sót có thể có trong chế tạo hoặc sửa chữa, ngoài ra để kiểm tra thông số kỹ thuật của máy bơm.",
+        "bold": true
+      },
+      {
+        "text": "Tất cả 3 câu đều sai.",
+        "bold": false
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": 72,
+    "sec_num": 2,
+    "section": "III. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN NƯỚC",
+    "question": "Anh chị hãy cho biết:Trình tự khởi động một tổ máy bơm:",
+    "options": [
+      {
+        "text": "Đóng áp tô mát – mở 1/3 van trên ống đẩy – nhấn nút khởi động – mở van trên ống đẩy từ từ đến khi dòng điện môtơ đạt giá trị định mức.",
+        "bold": false
+      },
+      {
+        "text": "Đóng áp tô mát – kiểm tra thiết bị phụ tùng – mở 1/3 van trên ống đẩy – nhấn nút khởi động – mở van ống đẩy từ từ đến khi dòng điện đạt giá trị định mức.",
+        "bold": false
+      },
+      {
+        "text": "Kiểm tra điện áp – kiểm tra tình trạng kín khít của bu lông mặt bích – đóng áp tô mát – Mở 1/3 van 2 chiều trên đường ống đẩy- Nhấn nút khởi động - Theo dõi ampekế kết hợp mở từ từ van 2 chiều trên ống đẩy đến khi dòng điện làm việc đạt giá trị dòng điện định mức của động cơ điện.",
+        "bold": true
+      },
+      {
+        "text": "Tất cả đều sai.",
+        "bold": false
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": 73,
+    "sec_num": 3,
+    "section": "III. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN NƯỚC",
+    "question": "Anh chị hãy cho biết: Trách nhiệm của người vận hành tổ máy bơm:",
+    "options": [
+      {
+        "text": "Thường xuyên theo dõi sự làm việc của máy móc thiết bị, công trình xử lý nước.",
+        "bold": false
+      },
+      {
+        "text": "Định kỳ hàng giờ đọc và ghi vào sổ vận hành giá trị đồng hồ lưu lượng, áp lực nước, đồng hồ điện.",
+        "bold": false
+      },
+      {
+        "text": "Chịu mọi trách nhiệm về sự hoạt động của máy móc thiết bị và tình trạng vệ sinh công nghiệp trong khu vực vận hành.",
+        "bold": false
+      },
+      {
+        "text": "Tất cả các ý trên.",
+        "bold": true
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": 74,
+    "sec_num": 4,
+    "section": "III. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN NƯỚC",
+    "question": "Anh chị hãy cho biết: Khi máy bơm đang hoạt động, rơle nhiệt tác động làm ngưng máy bơm thì công nhân vận hành phải:",
+    "options": [
+      {
+        "text": "Khởi động lại bơm để tiếp tục cấp nước.",
+        "bold": false
+      },
+      {
+        "text": "Báo cáo cho Ban Giám đốc, Tổ trưởng quản lý trực tiếp, ghi nhận vào sổ và cho máy bơm hoạt động lại.",
+        "bold": false
+      },
+      {
+        "text": "Báo cáo cho Ban Giám đốc, chờ ý kiến chỉ đạo.",
+        "bold": false
+      },
+      {
+        "text": "Ghi nhận sự cố vào sổ vận hành và báo cáo kịp thời cho người phụ trách, tổ chức kiểm tra tìm nguyên nhân sự cố và khắc phục xong mới cho máy bơm hoạt động lại.",
+        "bold": true
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": 75,
+    "sec_num": 5,
+    "section": "III. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN NƯỚC",
+    "question": "Theo Quy định của Công ty chế độ bảo trì của trạm bơm bao gồm các công việc nào:",
+    "options": [
+      {
+        "text": "Bảo quản, bảo dưỡng; sửa chữa nhỏ và sửa chữa lớn.",
+        "bold": true
+      },
+      {
+        "text": "Sửa chữa nhỏ; bảo dưỡng.",
+        "bold": false
+      },
+      {
+        "text": "Sửa chữa lớn; sửa chữa nhỏ, bảo dưỡng.",
+        "bold": false
+      },
+      {
+        "text": "Là công việc thường xuyên và hàng ngày.",
+        "bold": false
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": 76,
+    "sec_num": 6,
+    "section": "III. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN NƯỚC",
+    "question": "Công việc bảo quản, bảo dưỡng trạm bơm gồm:",
+    "options": [
+      {
+        "text": "Là công việc thường xuyên hàng ngày của công nhân vận hành trong ca trực.",
+        "bold": false
+      },
+      {
+        "text": "Thực hiện quan sát, kiểm tra tình trạng chung của cầu lấy nước, bể trộn, bể lắng, bể lọc, bể chứa, nhà trạm, kịp thời phát hiện những hư hỏng để xử lý, sửa chữa kịp thời.",
+        "bold": false
+      },
+      {
+        "text": "Vệ sinh lau chùi, làm sạch máy bơm, thiết bị; xử lý rò rỉ nước, xiết chặt bulong ở các bộ phận máy bơm, động cơ điện, của mặt bích lắp ghép ống công nghệ bị rung lỏng trong quá trình vận hành; vệ sinh công nghiệp nhà trạm bơm.",
+        "bold": false
+      },
+      {
+        "text": "Gồm tất cả các ý trên.",
+        "bold": true
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": 77,
+    "sec_num": 7,
+    "section": "III. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN NƯỚC",
+    "question": "Các chế độ sửa chữa máy bơm và thiết bị trạm bơm theo quy định Công ty gồm:",
+    "options": [
+      {
+        "text": "Sửa chữa nhỏ, thực hiện sau 500 giờ vận hành máy bơm hoặc 6 tháng làm việc; sửa chữa lớn, thực hiện sau 12 tháng làm việc.",
+        "bold": false
+      },
+      {
+        "text": "Sửa chữa lớn, thực hiện sau 12 tháng làm việc.",
+        "bold": false
+      },
+      {
+        "text": "Sửa chữa nhỏ, thực hiện sau 500 giờ vận hành máy bơm hoặc 6 tháng làm việc; sửa chữa lớn, thực hiện sau 12 tháng làm việc; nội dung chi tiết các công việc sửa chữa căn cứ kết luận của biên bản kiểm tra kỹ thuật định kỳ.",
+        "bold": true
+      },
+      {
+        "text": "Nội dung chi tiết các công việc sửa chữa căn cứ kết luận của biên bản kiểm tra kỹ thuật định kỳ.",
+        "bold": false
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": 78,
+    "sec_num": 8,
+    "section": "III. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN NƯỚC",
+    "question": "Trách nhiệm của Xí nghiệp điện nước, xí nghiệp cấp nước Long Xuyên trong công tác bảo quản máy bơm, thiết bị tại các HTCN theo Quy định Công ty như thế nào:",
+    "options": [
+      {
+        "text": "Phòng Kỹ thuật an toàn và CTT có trách nhiệm xây dựng lịch kiểm tra định kỳ máy bơm, thiết bị của các NMN, TCN trong toàn xí nghiệp.",
+        "bold": false
+      },
+      {
+        "text": "Quản đốc nhà máy nước, Tổ trưởng tổ QLĐN khu vực chịu trách nhiệm kiểm tra thường xuyên công tác vận hành, bảo trì bảo dưỡng của nhà máy nước, trạm cấp nước trong tổ.",
+        "bold": false
+      },
+      {
+        "text": "Phòng Kỹ thuật an toàn và CTT phối hợp nhà máy nước, tổ QLĐN khu vực tổ chức kiểm tra kỹ thuật định kỳ máy móc, thiết bị; đề xuất kế hoạch chi tiết về việc sửa chữa nhỏ, sửa chữa lớn máy bơm, thiết bị của HTCN trình Giám đốc xí nghiệp phê duyệt thực hiện. Báo cáo tình hình thực hiện hàng quý về Công ty.",
+        "bold": false
+      },
+      {
+        "text": "Tất cả các ý trên đều đúng.",
+        "bold": true
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": 79,
+    "sec_num": 9,
+    "section": "III. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN NƯỚC",
+    "question": "Máy bơm, thiết bị bị hư hỏng do không thực hiện nghiêm công tác bảo dưỡng bảo trì thì những cá nhân sau đây phải chịu kỹ luật hoặc bồi thường vật chất theo nội quy lao động của Công ty.",
+    "options": [
+      {
+        "text": "Công nhân trực tiếp vận hành; quản đốc nhà máy, tổ trưởng tổ QLĐN khu vực.",
+        "bold": false
+      },
+      {
+        "text": "Quản đốc nhà máy, Tổ trưởng tổ QLĐN khu vực; Trưởng Phòng Kỹ thuật an toàn và CTT",
+        "bold": false
+      },
+      {
+        "text": "Công nhân trực tiếp vận hành; Quản đốc nhà máy, Tổ trưởng tổ QLĐN khu vực; Trưởng Phòng Kỹ thuật an toàn và CTT; Giám đốc xí nghiệp.",
+        "bold": true
+      },
+      {
+        "text": "Trưởng Phòng Kỹ thuật an toàn và CTT; Giám đốc xí nghiệp.",
+        "bold": false
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": 80,
+    "sec_num": 10,
+    "section": "III. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN NƯỚC",
+    "question": "Yêu cầu kỹ thuật của tủ điện điều khiển máy bơm đảm bảo điều kiện vận hành theo quy định của Công ty như thế nào:",
+    "options": [
+      {
+        "text": "Tủ điện phải được sơn chống sét, sơn màu.",
+        "bold": false
+      },
+      {
+        "text": "Trên các đồng hồ đo dòng điện, điện áp của máy bơm phải có kẻ vạch đỏ chỉ giới hạn trị số cho phép của dòng điện, điện áp.",
+        "bold": false
+      },
+      {
+        "text": "Cáp điện, dây tín hiệu phải có giá đỡ hoặc rãnh cáp gọn, không xếp chồng chéo, rãnh cáp phải có nắp đậy không đọng nước.",
+        "bold": false
+      },
+      {
+        "text": "Gồm các ý trên.",
+        "bold": true
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": 81,
+    "sec_num": 11,
+    "section": "III. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN NƯỚC",
+    "question": "Sửa chữa lớn máy bơm gồm những công việc nào sau đây:",
+    "options": [
+      {
+        "text": "Kiểm tra, sửa chữa các hư hỏng thân máy bơm; phục hồi kích thước trục máy bơm và bánh xe công tác; kiểm tra, thay thế bạc đạn; kiểm tra, phục hồi kích thước vòng chống thấm trên bánh xe công tác và thân bơm; cân chỉnh lại độ đồng tâm giữa trục bơm và trục động cơ.",
+        "bold": true
+      },
+      {
+        "text": "Kiểm tra, sửa chữa phục hồi, thay thế bánh xe công tác, phục hồi vòng chống thấm; cân chỉnh lại độ đồng tâm giữa trục bơm và trục động cơ.",
+        "bold": false
+      },
+      {
+        "text": "Kiểm tra, sửa chữa phục hồi, thay thế bánh xe công tác, thay thế bạc đạn; phục hồi trục bơm bị mòn, hỏng; phục hồi vòng chống thấm.",
+        "bold": false
+      },
+      {
+        "text": "Tất cả các câu trên đều sai.",
+        "bold": false
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": 82,
+    "sec_num": 12,
+    "section": "III. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN NƯỚC",
+    "question": "Bảo dưỡng động cơ điện không đồng bộ phải thực hiện:",
+    "options": [
+      {
+        "text": "Chống ẩm, chống bụi cho cuộn dây stato.",
+        "bold": false
+      },
+      {
+        "text": "Bảo quản ổ đỡ trục, thay thế mỡ bôi trơn hoặc thay thế bạc đạn.",
+        "bold": false
+      },
+      {
+        "text": "Theo dõi độ tăng nhiệt độ động cơ, theo dõi tiếng kêu phát ra từ động cơ.",
+        "bold": false
+      },
+      {
+        "text": "Tất cả các ý trên.",
+        "bold": true
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": 83,
+    "sec_num": 13,
+    "section": "III. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN NƯỚC",
+    "question": "Phải ngừng ngay động cơ điện khi:",
+    "options": [
+      {
+        "text": "Động cơ điện khởi động khó khăn hoặc không khởi động.",
+        "bold": false
+      },
+      {
+        "text": "Phát ra tia lửa hoặc khói ở bộ phận tủ điều khiển, khởi động từ hoặc thân động cơ.",
+        "bold": false
+      },
+      {
+        "text": "Động cơ phát nóng quá mức hoặc có tiếng gầm rú, cọ xát kim loại.",
+        "bold": false
+      },
+      {
+        "text": "Tất cả các ý trên.",
+        "bold": true
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": 84,
+    "sec_num": 14,
+    "section": "III. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN NƯỚC",
+    "question": "Những lưu ý khi vận hành tổ máy bơm:",
+    "options": [
+      {
+        "text": "Không khởi động hai tổ máy bơm cùng lúc.",
+        "bold": false
+      },
+      {
+        "text": "Khi nhấn nút khởi động phải dứt khoát, không ngập ngừng.",
+        "bold": false
+      },
+      {
+        "text": "Van hai chiều trên ống hút phải mở hoàn toàn.",
+        "bold": false
+      },
+      {
+        "text": "Tất cả các ý trên.",
+        "bold": true
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": 85,
+    "sec_num": 15,
+    "section": "III. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN NƯỚC",
+    "question": "Tại sao phải thực hiện nghiêm quy trình vận hành máy bơm tại các HTCN:",
+    "options": [
+      {
+        "text": "Đảm bảo an toàn cho công nhân vận hành.",
+        "bold": false
+      },
+      {
+        "text": "Tránh hư hỏng các thiết bị, máy móc.",
+        "bold": false
+      },
+      {
+        "text": "Nâng cao hiệu quả hoạt động, tiết kiệm chi phí, tăng tuổi thọ máy.",
+        "bold": false
+      },
+      {
+        "text": "Bao gồm tất cả các câu a, b, c.",
+        "bold": true
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": 86,
+    "sec_num": 16,
+    "section": "III. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN NƯỚC",
+    "question": "Khi có lệnh chạy máy phát điện dự phòng, người công nhân vận hành phải:",
+    "options": [
+      {
+        "text": "Cho chạy máy phát điện – cho phụ tải lần lượt làm việc",
+        "bold": false
+      },
+      {
+        "text": "Kiểm tra toàn diện – chạy máy phát điện – cho phụ tải làm việc.",
+        "bold": false
+      },
+      {
+        "text": "Cho chạy máy phát điện – kiểm tra toàn diện – cho phụ tải lần lượt làm việc.",
+        "bold": false
+      },
+      {
+        "text": "Kiểm tra toàn diện – cho chạy máy phát điện – kiểm tra các thông số kỹ thuật của máy phát điện – cho phụ tải lần lượt làm việc.",
+        "bold": true
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": 87,
+    "sec_num": 17,
+    "section": "III. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN NƯỚC",
+    "question": "Khi có lệnh dừng máy phát điện, người công nhân vận hành:",
+    "options": [
+      {
+        "text": "Tắt máy – vệ sinh máy",
+        "bold": false
+      },
+      {
+        "text": "Tắt máy ra về",
+        "bold": false
+      },
+      {
+        "text": "Tắt máy – vệ sinh máy – bàn giao cho ca trực sau.",
+        "bold": false
+      },
+      {
+        "text": "Giảm phụ tải từ từ - cắt tải - giảm tốc độ động cơ đến tốc độ tối thiểu – tắt máy sau khi nhiệt độ nước làm mát giảm còn 50 – 600C.",
+        "bold": true
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": 88,
+    "sec_num": 18,
+    "section": "III. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN NƯỚC",
+    "question": "Có thể châm nhiên liệu vào động cơ máy phát điện khi động cơ đang hoạt động không?",
+    "options": [
+      {
+        "text": "Không cho phép.",
+        "bold": true
+      },
+      {
+        "text": "Được nhưng phải che chắn kỹ không cho đổ ra ngoài.",
+        "bold": false
+      },
+      {
+        "text": "Có thể kết hợp với việc châm bổ sung nhớt bôi trơn.",
+        "bold": false
+      },
+      {
+        "text": "Cần có dụng cụ chuyên dùng để thực hiện.",
+        "bold": false
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": 89,
+    "sec_num": 19,
+    "section": "III. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN NƯỚC",
+    "question": "Trong quá trình tiếp nhận sự cố ảnh hưởng đến nguồn nước ngoài tầm kiểm soát, công nhân vận hành có trách nhiệm:",
+    "options": [
+      {
+        "text": "Vẫn cung cấp nước",
+        "bold": false
+      },
+      {
+        "text": "Tăng cường thêm hóa chất xử lý",
+        "bold": false
+      },
+      {
+        "text": "Tạm ngưng vận hành đến khi có kết quả kiểm tra và xử lý dứt điểm sự cố.",
+        "bold": true
+      },
+      {
+        "text": "Gồm các ý trên",
+        "bold": false
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": 90,
+    "sec_num": 20,
+    "section": "III. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN NƯỚC",
+    "question": "Theo Qui định Vùng bảo hộ cấp nước (đồng bằng) được giới hạn trong phạm vi:",
+    "options": [
+      {
+        "text": "Thượng nguồn 400, hạ nguồn 200",
+        "bold": false
+      },
+      {
+        "text": "Thượng nguồn 800, hạ nguồn 200",
+        "bold": true
+      },
+      {
+        "text": "Thượng nguồn 600, hạ nguồn 200",
+        "bold": false
+      },
+      {
+        "text": "Thượng nguồn 200, hạ nguồn 800",
+        "bold": false
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": 91,
+    "sec_num": 21,
+    "section": "III. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN NƯỚC",
+    "question": "Hiện nay giới hạn cho phép đối với chỉ tiêu Clo dư trong nước sạch là:",
+    "options": [
+      {
+        "text": "0,3 – 0,5 mg/l",
+        "bold": false
+      },
+      {
+        "text": "3,0 – 5,0 mg/l",
+        "bold": false
+      },
+      {
+        "text": "0,3 – 0,8 mg/l",
+        "bold": false
+      },
+      {
+        "text": "0,3 – 1,0 mg/l",
+        "bold": true
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": 92,
+    "sec_num": 22,
+    "section": "III. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN NƯỚC",
+    "question": "Chức năng và công dụng của hệ thống châm Clor:",
+    "options": [
+      {
+        "text": "Làm cho nước trong và sát khuẩn",
+        "bold": false
+      },
+      {
+        "text": "Sát khuẩn và oxy hóa một phần chất cặn bẩn",
+        "bold": true
+      },
+      {
+        "text": "Chỉ sát khuẩn",
+        "bold": false
+      },
+      {
+        "text": "Oxy hóa các chất cặn bẩn và giữ độ trong của nước",
+        "bold": false
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": 93,
+    "sec_num": 23,
+    "section": "III. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN NƯỚC",
+    "question": "Định mức phèn (PAC) được sử dụng dựa trên yếu tố chính nào trong nguồn nước:",
+    "options": [
+      {
+        "text": "Độ nhiễm bẩn của nước",
+        "bold": false
+      },
+      {
+        "text": "Độ phù sa của nước nguồn",
+        "bold": true
+      },
+      {
+        "text": "Độ trong của nước",
+        "bold": false
+      },
+      {
+        "text": "Tất cả đều đúng",
+        "bold": false
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": 94,
+    "sec_num": 24,
+    "section": "III. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN NƯỚC",
+    "question": "Chất lượng nước hiện nay tại các HTCN đang được kiểm soát theo QC nào:",
+    "options": [
+      {
+        "text": "TC 1329/TC-BYT",
+        "bold": false
+      },
+      {
+        "text": "QC 01, 02/2009 ngày 17/6/2009",
+        "bold": false
+      },
+      {
+        "text": "QC 01: 2018 ngày 14/12/2018",
+        "bold": true
+      },
+      {
+        "text": "Tất cả đều đúng",
+        "bold": false
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": 95,
+    "sec_num": 25,
+    "section": "III. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN NƯỚC",
+    "question": "Khi thiết kế đồng hồ nước cho khách hàng nhân viên thiết kế phải thực hiện những công việc gì?",
+    "options": [
+      {
+        "text": "Xác định kích cở, độ sâu TOPP, chọn vị trí đặt đồng hồ nước.",
+        "bold": false
+      },
+      {
+        "text": "Đo, vẽ, chiết tính vật tư đầy đủ chính xác.",
+        "bold": false
+      },
+      {
+        "text": "Ghi đầy đủ những nội dung trong bảng chiết tính.",
+        "bold": false
+      },
+      {
+        "text": "Các ý trên đều đúng.",
+        "bold": true
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": 96,
+    "sec_num": 26,
+    "section": "III. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN NƯỚC",
+    "question": "Những yêu cầu trong thiết kế cơ bản lắp đồng hồ nước?",
+    "options": [
+      {
+        "text": "Không được thiết kế lắp đồng hồ nước trong nhà khách hàng; Ống nhánh dịch vụ trước đồng hồ nước không dài quá 05m kể từ điểm đấu nối (trường hợp khoảng cách dài hơn phải có sự chấp thuận của Giám đốc Xí nghiệp nhưng không vượt quá 10m);",
+        "bold": false
+      },
+      {
+        "text": "Lắp đồng hồ ở những nơi dễ quan lý, có bố trí che chắn bảo vệ đồng hồ (lắp hộp bảo vệ hoặc xây hố bảo vệ đồng hồ);",
+        "bold": false
+      },
+      {
+        "text": "Cả hai a và b đều sai;",
+        "bold": false
+      },
+      {
+        "text": "Cả hai a và b đều đúng.",
+        "bold": true
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": 97,
+    "sec_num": 27,
+    "section": "III. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN NƯỚC",
+    "question": "Là người quản lý tại các HTCN khi nhận đơn yêu cầu lắp đồng hồ nước sẽ thực hiện những việc gì?",
+    "options": [
+      {
+        "text": "Lập thiết kế ngay không cần đến nhà khách hàng sẽ mất thời gian.",
+        "bold": false
+      },
+      {
+        "text": "Mở sổ theo dõi, thực hiện thiết kế đúng quy định.",
+        "bold": true
+      },
+      {
+        "text": "Các ý trên đều đúng.",
+        "bold": false
+      },
+      {
+        "text": "Các ý trên đều sai.",
+        "bold": false
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": 98,
+    "sec_num": 27,
+    "section": "III. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN NƯỚC",
+    "question": "Những trường hợp nào khách hàng phải mua đồng hồ nước?",
+    "options": [
+      {
+        "text": "Đồng hồ bị mất trộm.",
+        "bold": false
+      },
+      {
+        "text": "Đồng hồ chết, hư hỏng đột xuất.",
+        "bold": false
+      },
+      {
+        "text": "Các hình thức vi phạm có tác động vào đồng hồ.",
+        "bold": false
+      },
+      {
+        "text": "Câu a, c đúng.",
+        "bold": true
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": 99,
+    "sec_num": 28,
+    "section": "III. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN NƯỚC",
+    "question": "Quy định công tác bấm chì đồng hồ nước thực hiện như thế nào?",
+    "options": [
+      {
+        "text": "Bấm chì phải liên kết giữa các rắc co trước, rắc co sau và mặt đồng hồ.",
+        "bold": false
+      },
+      {
+        "text": "Dây dùng để bấm chì phải là dây đồng và xoắn.",
+        "bold": false
+      },
+      {
+        "text": "Kềm bấm chì phải sử dụng đúng khu vực theo qui định của Công ty.",
+        "bold": false
+      },
+      {
+        "text": "Các ý trên đều đúng.",
+        "bold": true
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": 100,
+    "sec_num": 29,
+    "section": "III. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN NƯỚC",
+    "question": "Công tác nghiệm thu lắp đặt đồng hồ nước do ai thực hiện?",
+    "options": [
+      {
+        "text": "Do công nhân tại các HTCN thực hiện.",
+        "bold": false
+      },
+      {
+        "text": "Do bộ phận kỹ thuật của Xí nghiệp thực hiện.",
+        "bold": false
+      },
+      {
+        "text": "NMN trung tâm/ Tổ QLĐN khu vực và Phòng kỹ thuật AT & CTT thực hiện.",
+        "bold": true
+      },
+      {
+        "text": "Các ý trên đều sai.",
+        "bold": false
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": 101,
+    "sec_num": 30,
+    "section": "III. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN NƯỚC",
+    "question": "Là người quản lý tại các HTCN khi phát hiện sự cố xì, bể ống phải xử lý như thế nào?",
+    "options": [
+      {
+        "text": "Báo cáo bằng văn bản đến Giám đốc, lập dự trù vật tư - chi phí thực hiện, phân công xử lý đúng quy định.",
+        "bold": false
+      },
+      {
+        "text": "Báo cáo nhanh đến Giám đốc xin chỉ đạo, chủ động sửa chữa trong thời gian sớm nhất, bổ sung các thủ tục theo quy định.",
+        "bold": true
+      },
+      {
+        "text": "Cả câu a, b đều đúng.",
+        "bold": false
+      },
+      {
+        "text": "Cả câu a, b đều sai.",
+        "bold": false
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": 102,
+    "sec_num": 31,
+    "section": "III. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN NƯỚC",
+    "question": "Trước khi tiến hành kiểm tra, xử lý sự cố máy bơm bắt buộc phải thực hiện việc nào sau đây?",
+    "options": [
+      {
+        "text": "Ngừng máy bơm, cô lập nguồn điện đến máy bơm, treo bảng “ Cấm đóng điện có người đang làm việc”.",
+        "bold": false
+      },
+      {
+        "text": "Ngừng máy bơm, cô lập nguồn điện đến máy bơm; tách bơm khỏi hệ thống vận hành trạm bơm.",
+        "bold": false
+      },
+      {
+        "text": "Ngừng máy bơm, cô lập nguồn điện đến máy bơm; tháo dây cáp điện đấu vào động cơ máy bơm.",
+        "bold": false
+      },
+      {
+        "text": "Ngừng máy bơm, cô lập nguồn điện đến máy bơm, treo bảng “ Cấm đóng điện có người đang làm việc” tại tủ điện điều khiển bơm, tháo dây cáp điện đấu vào động cơ máy bơm, tách bơm khỏi hệ thống vận hành của trạm bơm",
+        "bold": true
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": 103,
+    "sec_num": 32,
+    "section": "III. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN NƯỚC",
+    "question": "Nguyên nhân máy bơm làm việc bị rung và có tiếng ồn lớn?",
+    "options": [
+      {
+        "text": "Van khóa mở không hết; ống hút, ống đẩy không kín, số vòng quay vượt quá định mức.",
+        "bold": false
+      },
+      {
+        "text": "Vật thể lạ kẹt vào bơm, số vòng quay vượt quá định mức, có lẫn khí trong nước.",
+        "bold": false
+      },
+      {
+        "text": "Lắp đặt không đúng kỹ thuật, nền móng yếu, hư hỏng phần cơ khí (trục bị cong, quạt gió hỏng, bánh xe công tác bị tháo lỏng…).",
+        "bold": true
+      },
+      {
+        "text": "Van khóa mở không hết, bạc đạn kêu lớn, điện áp bị hạ thấp.",
+        "bold": false
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": 104,
+    "sec_num": 33,
+    "section": "III. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN NƯỚC",
+    "question": "Tại sao phải nắm vững cấu tạo, quy trình vận hành, cách thức bảo trì bảo dưỡng máy bơm theo từng chủng loại tại các HTCN:",
+    "options": [
+      {
+        "text": "Đảm bảo an toàn cho công nhân vận hành.",
+        "bold": false
+      },
+      {
+        "text": "Tránh hư hỏng các thiết bị, máy móc.",
+        "bold": false
+      },
+      {
+        "text": "Nâng cao hiệu quả hoạt động, tiết kiệm chi phí, tăng tuổi thọ máy.",
+        "bold": false
+      },
+      {
+        "text": "Cả a, b, c đúng.",
+        "bold": true
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": 105,
+    "sec_num": 34,
+    "section": "III. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN NƯỚC",
+    "question": "Khi vận hành bể trộn cần phải thực hiện các công việc gì?",
+    "options": [
+      {
+        "text": "Điều chỉnh nước vào bể trộn.",
+        "bold": false
+      },
+      {
+        "text": "Điều chỉnh lượng hóa chất vào bể trộn theo hàm lượng cặn từng ngày, từng mùa (theo kết quả Jartest).",
+        "bold": false
+      },
+      {
+        "text": "Theo dõi hoạt động của bể.",
+        "bold": false
+      },
+      {
+        "text": "Câu a, b, c đều đúng.",
+        "bold": true
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": 106,
+    "sec_num": 35,
+    "section": "III. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN NƯỚC",
+    "question": "Khi vận hành bể lọc, phải giữ lớp nước trên bề mặt lớp vật liệu lọc từ:",
+    "options": [
+      {
+        "text": "0,5 – 2 m",
+        "bold": true
+      },
+      {
+        "text": "0,5 – 2 cm",
+        "bold": false
+      },
+      {
+        "text": "0,5 – 2 mm",
+        "bold": false
+      },
+      {
+        "text": "Câu a, b, c đều sai",
+        "bold": false
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": 107,
+    "sec_num": 36,
+    "section": "III. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN NƯỚC",
+    "question": "Khi nào cần phải xả lọc đầu?",
+    "options": [
+      {
+        "text": "Sau khi sửa chữa hoặc súc rửa bể lắng.",
+        "bold": false
+      },
+      {
+        "text": "Sau khi sửa chữa hoặc súc rửa bể lọc.",
+        "bold": true
+      },
+      {
+        "text": "Sau khi súc rửa, vệ sinh bể chứa.",
+        "bold": false
+      },
+      {
+        "text": "Các câu a, b, c đều đúng",
+        "bold": false
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": 108,
+    "sec_num": 37,
+    "section": "III. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN NƯỚC",
+    "question": "Khi bể lọc ngưng vận hành để sửa chữa, sau mỗi lần sửa chữa bể phải được khử trùng bằng Clo với nồng độ:",
+    "options": [
+      {
+        "text": "20 – 50 mg/l",
+        "bold": true
+      },
+      {
+        "text": "20 – 50 gr/l",
+        "bold": false
+      },
+      {
+        "text": "20 – 50 kg/l",
+        "bold": false
+      },
+      {
+        "text": "Câu a, b, c đều sai",
+        "bold": false
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": 109,
+    "sec_num": 38,
+    "section": "III. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN NƯỚC",
+    "question": "Bể chứa nước sạch của nhà máy nước thường được đắp đất trồng cỏ trên mặt nhằm mục đích gì?",
+    "options": [
+      {
+        "text": "Tạo vẽ mỹ quan xanh, sạch cho nhà máy nước.",
+        "bold": false
+      },
+      {
+        "text": "Ổn định nhiệt độ để clo tiếp xúc với nước đạt yêu cầu.",
+        "bold": false
+      },
+      {
+        "text": "Giữ cho nhiệt độ nước trong bể không nóng (giữ nhiệt độ ổn định) và chống đẩy nổi bể.",
+        "bold": true
+      },
+      {
+        "text": "Câu a, b, c đều sai.",
+        "bold": false
+      }
+    ],
+    "answer": 2
+  },
+  {
+    "id": 110,
+    "sec_num": 39,
+    "section": "III. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN NƯỚC",
+    "question": "Theo tiêu chuẩn thiết kế TCXDVN 13605:2023 Cấp nước – mạng lưới đường ống và công trình: đường ống cấp nước giao nhau với đường dây cáp điện, dây điện thoại thì khoảng cách tối thiểu giữa chúng theo phương đứng không được nhỏ hơn?",
+    "options": [
+      {
+        "text": "0,4m",
+        "bold": false
+      },
+      {
+        "text": "0,5m",
+        "bold": true
+      },
+      {
+        "text": "0,6m",
+        "bold": false
+      },
+      {
+        "text": "0,7m.",
+        "bold": false
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": 111,
+    "sec_num": 40,
+    "section": "III. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN NƯỚC",
+    "question": "Tác hại của thất thoát nước là gì?",
+    "options": [
+      {
+        "text": "Thất thoát nước là thất thoát tiền.",
+        "bold": false
+      },
+      {
+        "text": "Thất thoát nước làm tăng giá thành sản xuất.",
+        "bold": false
+      },
+      {
+        "text": "Thất thoát nước làm thất thoát tài nguyên nước và gây tổn hại cho các công trình hạ tầng.",
+        "bold": false
+      },
+      {
+        "text": "Câu a, b, c đều đúng",
+        "bold": true
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": 112,
+    "sec_num": 41,
+    "section": "III. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN NƯỚC",
+    "question": "Thất thoát nước về mặt kỹ thuật gồm những hình thức nào?",
+    "options": [
+      {
+        "text": "Thất thoát qua đồng hồ nước.",
+        "bold": false
+      },
+      {
+        "text": "Thất thoát nước trên mạng ống do lắp đặt, chất lượng vật tư,…",
+        "bold": false
+      },
+      {
+        "text": "Thất thoát do khách hàng trộm cắp nước.",
+        "bold": false
+      },
+      {
+        "text": "Câu a, b đúng.",
+        "bold": true
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": 113,
+    "sec_num": 42,
+    "section": "III. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN NƯỚC",
+    "question": "Đặc tính chung của ống nhựa uPVC là:",
+    "options": [
+      {
+        "text": "Bền với hóa chất, không bị rỉ sét, không độc.",
+        "bold": false
+      },
+      {
+        "text": "Hệ số ma sát nhỏ, tính cách điện tốt.",
+        "bold": false
+      },
+      {
+        "text": "Lắp đặt đơn giản, nhanh, chi phí đầu tư thấp.",
+        "bold": false
+      },
+      {
+        "text": "Câu a, b, c đều đúng.",
+        "bold": true
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": 114,
+    "sec_num": 43,
+    "section": "III. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN NƯỚC",
+    "question": "Định kỳ bao lâu kiểm tra tình trạng hoạt động, chất lượng, vệ sinh bể lắng, bể lọc:",
+    "options": [
+      {
+        "text": "3 tháng/lần.",
+        "bold": false
+      },
+      {
+        "text": "6 tháng/lần.",
+        "bold": true
+      },
+      {
+        "text": "9 tháng/lần.",
+        "bold": false
+      },
+      {
+        "text": "12 tháng/lần.",
+        "bold": false
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": 115,
+    "sec_num": 44,
+    "section": "III. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN NƯỚC",
+    "question": "Định kỳ bao lâu kiểm tra tình trạng hoạt động, chất lượng, vệ sinh, xúc rửa bể chứa nước sạch:",
+    "options": [
+      {
+        "text": "Trạm cấp nước: 3 tháng/lần ; Nhà máy nước: 6 tháng/lần",
+        "bold": false
+      },
+      {
+        "text": "Trạm cấp nước: 6 tháng/lần ; Nhà máy nước: 12 tháng/lần.",
+        "bold": false
+      },
+      {
+        "text": "Khi chất lượng nước cấp ra mạng không đạt yêu cầu.",
+        "bold": false
+      },
+      {
+        "text": "Câu b, c đều đúng.",
+        "bold": true
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": 116,
+    "sec_num": 45,
+    "section": "III. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN NƯỚC",
+    "question": "Thiết bị nào cần hiệu chuẩn định kỳ?",
+    "options": [
+      {
+        "text": "Đồng hồ áp suất, lưu lượng kế và thiết bị đo chất lượng nước.",
+        "bold": true
+      },
+      {
+        "text": "Van cổng.",
+        "bold": false
+      },
+      {
+        "text": "Đường ống.",
+        "bold": false
+      },
+      {
+        "text": "Sơn máy.",
+        "bold": false
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": 117,
+    "sec_num": 46,
+    "section": "III. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN NƯỚC",
+    "question": "Sau khi bảo dưỡng, thiết bị được đưa vào vận hành khi",
+    "options": [
+      {
+        "text": "Chỉ cần lắp xong.",
+        "bold": false
+      },
+      {
+        "text": "Đã sơn đẹp.",
+        "bold": false
+      },
+      {
+        "text": "Đã ghi nhật ký.",
+        "bold": false
+      },
+      {
+        "text": "Đã nghiệm thu đạt yêu cầu và chạy thử ổn định.",
+        "bold": true
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": 118,
+    "sec_num": 47,
+    "section": "III. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN NƯỚC",
+    "question": "Nguyên nhân phổ biến làm động cơ quá nhiệt là",
+    "options": [
+      {
+        "text": "Quá tải hoặc thông gió kém.",
+        "bold": true
+      },
+      {
+        "text": "PAC nhiều.",
+        "bold": false
+      },
+      {
+        "text": "Clo thấp.",
+        "bold": false
+      },
+      {
+        "text": "Nước sạch",
+        "bold": false
+      }
+    ],
+    "answer": 0
+  },
+  {
+    "id": 119,
+    "sec_num": 48,
+    "section": "III. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN NƯỚC",
+    "question": "Khi kiểm tra điện trở cách điện động cơ thấy thấp hơn quy định thì",
+    "options": [
+      {
+        "text": "Vẫn vận hành bình thường.",
+        "bold": false
+      },
+      {
+        "text": "Giảm tốc độ.",
+        "bold": false
+      },
+      {
+        "text": "Tăng điện áp.",
+        "bold": false
+      },
+      {
+        "text": "Không được đưa vào vận hành, phải xử lý trước.",
+        "bold": true
+      }
+    ],
+    "answer": 3
+  },
+  {
+    "id": 120,
+    "sec_num": 49,
+    "section": "III. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN NƯỚC",
+    "question": "Sau mỗi lần bảo dưỡng cần a Chỉ báo miệng.",
+    "options": [
+      {
+        "text": "Không cần ghi.",
+        "bold": false
+      },
+      {
+        "text": "Ghi đầy đủ nội dung công việc và kết quả vào hồ sơ thiết bị.",
+        "bold": true
+      },
+      {
+        "text": "Ghi cuối năm.",
+        "bold": false
+      }
+    ],
+    "answer": 1
+  },
+  {
+    "id": 121,
+    "sec_num": 50,
+    "section": "III. KIẾN THỨC VỀ QUY TRÌNH KỸ THUẬT AN TOÀN NƯỚC",
+    "question": "Nguyên tắc quan trọng nhất trong bảo trì thiết bị là",
+    "options": [
+      {
+        "text": "Làm nhanh.",
+        "bold": false
+      },
+      {
+        "text": "Tiết kiệm dầu.",
+        "bold": false
+      },
+      {
+        "text": "Chỉ sửa khi hỏng.",
+        "bold": false
+      },
+      {
+        "text": "An toàn – đúng quy trình – đúng kỹ thuật – có hồ sơ theo dõi.",
+        "bold": true
+      }
+    ],
+    "answer": 3
+  }
+]

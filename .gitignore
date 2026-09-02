@@ -1,0 +1,9 @@
+node_modules/
+.DS_Store
+*.log
+scratch/
+~$*
+open-design/
+*.htm
+*_files/
+*.docx

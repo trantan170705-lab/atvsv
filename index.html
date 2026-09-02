@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="vi">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trộn Đề & Chấm Điểm ATVSLĐ 2026 - Trọn bộ 121 Câu</title>
+
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./trac-nghiem/styles.css" />
+</head>
+
+<body>
+  <div class="app-layout">
+    <!-- Header -->
+    <header class="app-header">
+      <div class="shell">
+        <div style="display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 16px;">
+          <div>
+            <div class="eyebrow-badge">
+              <span class="badge-dot"></span> HỘI THI ATVSV GIỎI · LẦN THỨ VIII - NĂM 2026
+            </div>
+            <h1>Trộn đề & Chấm điểm trắc nghiệm</h1>
+            <p class="header-desc">Trọn bộ 121 câu hỏi ATVSV · 3 Chuyên mục kiến thức · Tự động trộn câu hỏi</p>
+          </div>
+          <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+            <a href="/tu-luan" style="background: linear-gradient(135deg, #ffc857 0%, #ff8a00 100%); color: #2b1900; text-decoration: none; padding: 12px 20px; border-radius: 99px; font-weight: 800; display: inline-flex; align-items: center; gap: 8px;">🎲 QUAY CÂU TỰ LUẬN</a>
+            <a href="/hieu-lenh" style="background: linear-gradient(135deg, #00F0FF 0%, #0072FF 100%); color: #000; text-decoration: none; padding: 12px 20px; border-radius: 99px; font-weight: 800; display: inline-flex; align-items: center; gap: 8px; box-shadow: 0 4px 15px rgba(0, 240, 255, 0.4); transition: transform 0.2s;">🎭 WEB HIỆU LỆNH ÂM THANH</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="shell">
+      <!-- Section 1: Dashboard / Exam Selection -->
+      <section id="start" class="start-panel">
+        <div class="hero-card">
+          <div class="hero-content">
+            <span class="badge-pill">Ngân hàng 121 câu</span>
+            <h2>Chọn đề thi hoặc chế độ luyện tập</h2>
+            <p class="hero-sub">Mỗi lần tạo đề, hệ thống sẽ tự động trộn câu hỏi. Chọn một mã đề hoặc luyện tập
+              theo từng chuyên môn.</p>
+          </div>
+        </div>
+
+        <!-- Preset Codes (Mã Đề 01 - 05) -->
+        <div class="card-section">
+          <div class="section-title-wrap">
+            <span class="sticker-tag tag-blue">Mã đề chuẩn</span>
+            <h3>5 Mã đề thi 25 câu (Phân bổ từ 121 câu)</h3>
+          </div>
+          <div class="codes-grid" id="codes"></div>
+        </div>
+
+        <!-- Quick Action: Random 25 Exam -->
+        <div class="card-section">
+          <button class="btn-primary-pill" id="random">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67" />
+            </svg>
+            Tạo đề ngẫu nhiên 25 câu
+          </button>
+        </div>
+
+        <!-- Section Practice & Full Bank -->
+        <div class="card-section">
+          <div class="section-title-wrap">
+            <span class="sticker-tag tag-purple">Ôn tập chuyên đề</span>
+            <h3>Luyện tập theo chuyên mục & toàn bộ ngân hàng</h3>
+          </div>
+
+          <div class="practice-cards-grid">
+            <div class="practice-card" id="sec-1">
+              <div class="card-badge badge-teal">Phần I</div>
+              <h4>Kiến thức ATVSLĐ - PCCN</h4>
+              <p>30 câu trắc nghiệm chuyên đề quy định an toàn, vệ sinh lao động & phòng cháy chữa cháy.</p>
+              <span class="card-action">Luyện tập ngay →</span>
+            </div>
+
+            <div class="practice-card" id="sec-2">
+              <div class="card-badge badge-purple">Phần II</div>
+              <h4>Quy trình Kỹ thuật An toàn Điện</h4>
+              <p>40 câu trắc nghiệm quy trình an toàn điện, biện pháp kỹ thuật & công tác vận hành.</p>
+              <span class="card-action">Luyện tập ngay →</span>
+            </div>
+
+            <div class="practice-card" id="sec-3">
+              <div class="card-badge badge-orange">Phần III</div>
+              <h4>Quy trình Kỹ thuật An toàn Nước</h4>
+              <p>51 câu trắc nghiệm quy trình quản lý vận hành máy bơm, hóa chất & hệ thống cấp nước.</p>
+              <span class="card-action">Luyện tập ngay →</span>
+            </div>
+
+            <div class="practice-card card-full" id="random-all">
+              <div class="card-badge badge-dark">Toàn bộ</div>
+              <h4>Luyện tập tất cả 121 câu trắc nghiệm</h4>
+              <p>Thử thách ôn tập trọn vẹn 121 câu trong một bài làm để kiểm tra toàn bộ kiến thức.</p>
+              <span class="card-action">Bắt đầu làm 121 câu ★</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 2: Quiz Form -->
+      <section id="quiz" class="quiz-panel" hidden>
+        <div class="sticky-quiz-header">
+          <button class="btn-back" id="back">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <line x1="19" y1="12" x2="5" y2="12" />
+              <polyline points="12 19 5 12 12 5" />
+            </svg>
+            Đổi đề thi
+          </button>
+
+          <div class="quiz-title-meta">
+            <h2 id="label">Mã đề 01</h2>
+            <span class="progress-text" id="progress">0 / 25 đã chọn</span>
+          </div>
+
+          <div class="progress-bar-container">
+            <div class="progress-bar-fill" id="progress-fill"></div>
+          </div>
+        </div>
+
+        <form id="questions" class="questions-container"></form>
+
+        <div class="quiz-footer">
+          <button class="btn-submit-quiz" id="submit" type="button">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
+              <polyline points="22 4 12 14.01 9 11.01" />
+            </svg>
+            Nộp bài và chấm điểm
+          </button>
+        </div>
+      </section>
+
+      <!-- Section 3: Exam Results -->
+      <section id="result" class="result-panel" hidden></section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="app-footer">
+      <div class="shell">
+        <p>Hội thi An toàn Vệ sinh viên Giỏi lần thứ VIII - 2026 · Ngân hàng 121 câu trắc nghiệm chuẩn hóa</p>
+      </div>
+    </footer>
+  </div>
+
+  <script src="./trac-nghiem/app.js"></script>
+</body>
+
+</html>

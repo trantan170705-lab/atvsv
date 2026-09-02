@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <base href="/tu-luan/">
+  <title>Quay câu hỏi tự luận — ATVSLĐ 2026</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./details.css">
+</head>
+<body>
+  <main class="page-shell">
+    <a class="back-link" href="/">← Trở về trang trắc nghiệm</a>
+    <section class="hero">
+      <span class="eyebrow">HỘI THI ATVSLĐ GIỎI 2026</span>
+      <h1>Quay câu hỏi tự luận</h1>
+      <p>Chọn thí sinh, chọn chủ đề rồi bấm quay.</p>
+    </section>
+
+    <section class="selector-card" aria-label="Chọn thí sinh và chủ đề">
+      <div class="section-heading"><span>1</span><div><h2>Chọn thí sinh</h2><p>Mỗi người chỉ nhìn thấy bộ câu hỏi của mình.</p></div></div>
+      <div class="candidate-grid" id="candidate-list"></div>
+      <div class="section-heading topic-heading"><span>2</span><div><h2>Chọn chủ đề</h2><p id="topic-description">Chọn thí sinh trước để xem chủ đề.</p></div></div>
+      <div class="topic-tabs" id="topic-list"></div>
+    </section>
+
+    <section class="draw-card" aria-live="polite">
+      <div class="dice" id="dice" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+      <p class="draw-label" id="draw-label">Sẵn sàng quay câu hỏi</p>
+      <div class="question-wrap" id="question-wrap">
+        <p class="question-placeholder">Hãy chọn thí sinh và chủ đề, sau đó bấm nút bên dưới.</p>
+      </div>
+      <button class="draw-button" id="draw-button" type="button" disabled><span>🎲</span> QUAY CÂU HỎI</button>
+      <p class="pool-note" id="pool-note"></p>
+    </section>
+  </main>
+  <script src="./app.js"></script>
+</body>
+</html>

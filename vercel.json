@@ -1,0 +1,21 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    { "source": "/trac-nghiem", "destination": "/", "statusCode": 308 },
+    { "source": "/hieulenh", "destination": "/hieu-lenh", "statusCode": 301 },
+    { "source": "/hieulenh.html", "destination": "/hieu-lenh", "statusCode": 301 }
+  ],
+  "rewrites": [
+    { "source": "/hieu-lenh", "destination": "/hieu-lenh/index.html" },
+    { "source": "/tu-luan", "destination": "/tu-luan/index.html" }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }
+      ]
+    }
+  ]
+}
